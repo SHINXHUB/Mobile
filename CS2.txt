@@ -5,7 +5,7 @@ elseif game.PlaceId == 4442272183 then
 elseif game.PlaceId == 7449423635 then
     World3 = true
 else
-    game:GetService("Players").LocalPlayer:Kick("ไม่รองรับแมพนี้ครับผม")
+    game:GetService("Players").LocalPlayer:Kick("☻ Do not Support, Please wait...")
 end
 
 function CheckQuest() 
@@ -2532,9 +2532,9 @@ spawn(function()
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red>SHIN X HUB<Color=/>"):Display()
     wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>SHIN X HUB อัพเดทไหม่ ถ้าใช้ตัวรัน F จะดีมาก<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>New Update If Use Fluxus = Very Op<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>รายงานบัคได้ที่นี่เลย↓<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Report Bug in Discrd<Color=/>"):Display()
     wait(.29)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Welcome -> Discord.gg/EKmZy8Cb <Color=/>"):Display()
     wait(.36)
@@ -2547,14 +2547,14 @@ local Window = OrionLib:MakeWindow({Name = "SHIN X HUB", HidePremium = false, In
 
 OrionLib:MakeNotification({
     Name = "SHIN X HUB",
-    Content = "กรุณารอสักครู่เพื่อโหลดสคริปต์...,อย่าเปิดใช้งานฟังก์ชั่นใดๆ",
+    Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
     Name = "SHIN X HUB",
-    Content = "กำลังโหลด config เสร็จเรียบร้อย",
+    Content = "loading config Done",
     Image = "rbxassetid://8192162908",
     Time = 10
 })
@@ -2562,128 +2562,128 @@ OrionLib:MakeNotification({
 -------------Tab-----------------------
 
 local W = Window:MakeTab({
-    Name = "ยินดีต้อนรับ",
+    Name = "Welcome",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
-    Name = "เมนู ออโต้ฟาร์ม",
+    Name = "Main Farm",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
-    Name = "ตั้งค่า",
+    Name = "Setting",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "ฟาร์มของ",
+    Name = "Stack Auto Farm",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "ค่าพลัง",
+    Name = "Stats",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
-    Name = "มอง",
+    Name = "Esp",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
-    Name = "ลงดัน",
+    Name = "Raid",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = "ไปเกาะต่างๆ | ผู้เล่น",
+    Name = "Travel | Players",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "เปลี่ยนโลก",
+    Name = "Travel Sea",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
-    Name = "เกม | เซิฟเวอร์",
+    Name = "Game | Sever",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "ผลปีศาจ",
+    Name = "Fruit",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "เผ่า V4",
+    Name = "Race V4",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "ซื้อของ",
+    Name = "Shop",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "อื่นๆ",
+    Name = "Misc",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 -----Label--------------------
 local Section = W:AddSection({
-    Name = "เครดิต"
+    Name = "Credit"
 })
 
 
 W:AddLabel("SHIN X HUB")
 
 local Section = W:AddSection({
-    Name = "อัพเดทเวอร์ชั่น | 2.01"
+    Name = "UPD | 2.01"
 })
 
 
-W:AddLabel("SHIN X HUB | อัพเดท")
-W:AddLabel("+ เปลี่ยนชื่อ")
-W:AddLabel("สถานะสคริปต์ | 🟢 | โอกาสโดนแบน 0%")
-W:AddLabel("+ เพิ่มออโต้กัน")
-W:AddLabel("+ เปลี่ยนยูไอ")
-W:AddLabel("ถ้าบัครายงานได้ที่ Discord")
-W:AddLabel("- ลบอีเว้นท์ทะเลเพราะใส่แล้วตัวรันไม่รองรับเกือบทุกอัน")
+W:AddLabel("SHIN X HUB | UPD")
+W:AddLabel("+ New Name")
+W:AddLabel("SCRIPT | 🟢 | BANNED 0%")
+W:AddLabel("+ Auto Parry Banned")
+W:AddLabel("+ New library")
+W:AddLabel("if bug report in discord")
+W:AddLabel("discord.gg/EKmZy8Cb")
 local Section = W:AddSection({
     Name = "Status"
 })
 
 W:AddButton({
-    Name = "ลิ้ง Discord",
+    Name = "Link Discord",
     Callback = function(value)
         setclipboard("https://discord.com/invite/EKmZy8Cb")
     end
 })
 
 W:AddButton({
-    Name = "ลิ้ง YouTube",
+    Name = "Link YouTube",
     Callback = function(value)
         setclipboard("https://www.youtube.com/@hunterx_hub")
     end
 })
 
-local locallv = W:AddLabel("เลเวล")
+local locallv = W:AddLabel("Level")
     
     spawn(function()
         while wait() do
@@ -2693,7 +2693,7 @@ local locallv = W:AddLabel("เลเวล")
         end
     end)
     
-    local localrace = W:AddLabel("เผ่า")
+    local localrace = W:AddLabel("Race")
     
     spawn(function()
         while wait() do
@@ -2703,7 +2703,7 @@ local locallv = W:AddLabel("เลเวล")
         end
     end)
     
-    local localbeli = W:AddLabel("เงิน")
+    local localbeli = W:AddLabel("Beli")
     
     spawn(function()
         while wait() do
@@ -2713,7 +2713,7 @@ local locallv = W:AddLabel("เลเวล")
         end
     end)
     
-    local localfrag = W:AddLabel("เงินม่วง")
+    local localfrag = W:AddLabel("Fragment")
     
     spawn(function()
         while wait() do
@@ -2724,8 +2724,27 @@ local locallv = W:AddLabel("เลเวล")
     end)
     
     
+    local localexp = W:AddLabel("ExP")
     
-    local localbountyhornor = W:AddLabel("ค่าหัว")
+    spawn(function()
+        while wait() do
+            pcall(function()
+                localexp:Set("ExP Points :".." "..game:GetService("Players").LocalPlayer.Data.Exp.Value)
+            end)
+        end
+    end)
+    
+    local localstat = W:AddLabel("Stats Points")
+    
+    spawn(function()
+        while wait() do
+            pcall(function()
+                localstat:Set("Stats Points :".." "..game:GetService("Players").LocalPlayer.Data.Points.Value)
+            end)
+        end
+    end)
+    
+    local localbountyhornor = W:AddLabel("Bounty")
     
     spawn(function()
         while wait() do
@@ -2735,7 +2754,7 @@ local locallv = W:AddLabel("เลเวล")
         end
     end)
     
-    local localDevil = W:AddLabel("ผลปีศาจ")
+    local localDevil = W:AddLabel("Devil Fruit")
     
     spawn(function()
         while wait() do
@@ -2749,8 +2768,117 @@ local locallv = W:AddLabel("เลเวล")
         end
     end)
 
+    local Section = W:AddSection({
+        Name = "Status Hack"
+    })
+    
+    local LevelFarmFarm W:AddLabel("Kaitun : Đell có(sắp có)")
+    W:AddLabel("Config Save : Comming Son...")
+    local Farmfast = W:AddLabel("Farm Fast : ❌")
+    local Bypass = W:AddLabel("Bypass ❌")
+    local Section = W:AddSection({
+        Name = "World"
+    })
+    local WolrdSet3 = W:AddLabel("World 1 ❌ ")
+    local WolrdSet = W:AddLabel("Wolrd : 2 ❌")
+    local WolrdSet1 = W:AddLabel("Wolrd : 3 ❌")
+    local Section = W:AddSection({
+        Name = "Stats Point"
+    })
+    local StastMelee = W:AddLabel("")
+    local StastDefense = W:AddLabel("")
+    local StastSword = W:AddLabel("")
+    local StastGun = W:AddLabel("")
+    local StastDevilFruit = W:AddLabel("")
+    local PointsStast = W:AddLabel("")
+    local Section = W:AddSection({
+        Name = "Melee Check"
+    })
+    local  Superhuman =             W:AddLabel("❌ : Superhuman")
+    local  DeathStep =              W:AddLabel("❌ : Sharkman Karate")
+    local  ElectricClaw =             W:AddLabel("❌ : Electric Claw")
+    local  DragonTalon =             W:AddLabel("❌ : Dragon Talon")
+    local   GodHuman =            W:AddLabel("❌ : God Human")
+    local Section = W:AddSection({
+        Name = "Sword Legend Check"
+    })
+    local   Shisui =            W:AddLabel("❌ : Shisui")
+    local     Saddi =           W:AddLabel("❌ : Saddi")
+    local      Wando =         W:AddLabel("❌ : Wando")
+    local     TrueTripleKatana          W:AddLabel("❌ : True Triple Katana")
+    local Section = W:AddSection({
+        Name = "World 1 Weapon"
+    })
+    local   Saber  = W:AddLabel("❌ : Saber")
+    local Section = W:AddSection({
+        Name = "World 2 Weapon"
+    })
+    local       Rengoku =         W:AddLabel("❌ : Rengoku")
+    local    MidnightBlade =            W:AddLabel("❌ : Midnight Blade")
+    local       DragonTrident =        W:AddLabel("❌ : DragonTrident")
+    local Section = W:AddSection({
+        Name = "World 3 Weapon"
+    })
+    local     Yama =          W:AddLabel("❌ : Yama")
+    local        BuddySword =        W:AddLabel("❌ : Buddy Sword")
+    local       Canvander =        W:AddLabel("❌ : Canvander")
+    local      TwinHooks =         W:AddLabel("❌ : Twin Hooks")
+    local     SpikeyTrident =          W:AddLabel("❌ : Spikey Trident")
+    local   HallowScythe =            W:AddLabel("❌ : Hallow Scythe")
+    local     DarkDagger =           W:AddLabel("❌ : Dark Dagger")
+    local     Tushita          W:AddLabel("❌ : Tushita")
+    local Section = W:AddSection({
+        Name = "Gun"
+    })
+    local   Kabucha =            W:AddLabel("❌ : Kabucha")
+    local   AcidumRifle =             W:AddLabel("❌ : Acidum Rifle")
+    local    BizarreRifle =            W:AddLabel("❌ : Bizarre Rifle")
+    local Section = W:AddSection({
+        Name = "Quest"
+    })
+    local   BartiloQuest =            W:AddLabel("❌ : Bartilo Quest")
+    local   DonSwanQuest =             W:AddLabel("❌ : Don Swan Quest")
+    local    KillDonSwan =           W:AddLabel("❌ : Kill Don Swan")
+
+
+local Section = W:AddSection({
+    Name = "Acessory"
+})
+
+
+local Dark_Coat = W:AddLabel("❌: Dark Coat")
+local Ghoul_Mask = W:AddLabel("❌: Ghoul Mask")
+local Swan_Glass = W:AddLabel("❌: Swan Glass")
+local Pale_Scarf = W:AddLabel("❌: Pale Scarf")
+local Valkyrie_Helm = W:AddLabel("❌: Valkyrie Helm")
+
+
+spawn(function()
+    while task.wait() do
+        pcall(function()
+            for i,v in pairs(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("getInventoryWeapons")) do
+                if v.Name == "Saber" then
+                    Dark_Coat:Set("✅: Dark Coat")
+                end
+                if v.Name == "Ghoul Mask" then
+                    Ghoul_Mask:Set("✅: Ghoul Mask")
+                end
+                if v.Name == "Swan Glasses" then
+                    Swan_Glass:Set("✅: Swan Glass")
+                end
+                if v.Name == "Pale Scarf" then
+                    Pale_Scarf:Set("✅: Pale Scarf")
+                end
+                if v.Name == "Valkyrie Helmet" then
+                    Valkyrie_Helm:Set("✅: Valkyrie Helmet")
+                end
+            end
+        end)
+    end
+end)
+
 local Section = M:AddSection({
-    Name = "เลือกอาวุธในการฟาร์ม | จำเป็น"
+    Name = "Select Weapon"
 })
 
 
@@ -2809,11 +2937,11 @@ task.spawn(function()
 
 if World2 and World1 then
     local Section = M:AddSection({
-        Name = "ลดแล็ค"
+        Name = "BOOTS"
     })
 
     M:AddButton({
-        Name = "ลดแล็ค",
+        Name = "BOOST FPS",
         Callback = function()
             pcall(function()
                 game:GetService("Lighting").FantasySky:Destroy()
@@ -2865,7 +2993,7 @@ if World2 and World1 then
 end
 
     local Section = M:AddSection({
-        Name = "ฟาร์มอื่นๆ"
+        Name = "Other Farm"
     })
 
     
@@ -2902,7 +3030,7 @@ end
     
     
     M:AddButton({
-        Name = "ออโต้ใส่โค้ดทั้งหมด",
+        Name = "Redeem all code",
         Callback = function()
             function RedeemCode(value)
                 game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
@@ -2914,103 +3042,13 @@ end
     })
 
     local Section = M:AddSection({
-        Name = "คาตาคุริ | โบน | เลเวล"
+        Name = "Auto Farm Level"
     })
 
 
 
 ToggleFarm = M:AddToggle({
-    Name = "ออโต้ฟาร์ม คาตาคุริ",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.AutoDoughtBoss = Value
-        StopTween(_G.AutoDoughtBoss)
-    end    
-})
-
-ToggleFarm = M:AddToggle({
-    Name = "ออโต้ เสกคาตาคุริ",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner",Value)
-    end    
-})
-
-ToggleFarm = M:AddToggle({
-    Name = "ออโต้ฟาร์ม คาตาคุริ V2",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.Autodoughking = Value
-        StopTween(_G.Autodoughking)
-    end    
-})
-
-ToggleFarm = M:AddToggle({
-    Name = "ออโต้ คาตาคุริ V2 | เปลี่ยนเซิฟ",
-    Default = true,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.Hop = Value
-    end    
-})
-
-if World3 then
-local Section = M:AddSection({
-    Name = "โบน | กระดูก"
-})
-
-if World3 then
-local Bone = M:AddLabel("โบน | กระดูก |  ")
-
-spawn(function()
-    while wait() do
-        pcall(function()
-            Bone:Set("คุณมี โบน | กระดูก | "..(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Check")))
-        end)
-    end
-end)
-
-if World3 then
-ToggleBone = M:AddToggle({
-    Name = "ออโต้ฟาร์ม โบน | กระดูก",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.Auto_Bone = Value
-        StopTween(_G.Auto_Bone)
-    end    
-})
-
-if World3 then
-ToggleRandom = M:AddToggle({
-        Name = "ออโต้ สุมโบน | กระดูก",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.Auto_Random_Bone = Value
-        end    
-    })
-    spawn(function()
-        pcall(function()
-            while wait(.1) do
-                if _G.Auto_Random_Bone then    
-                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Buy",1,1)
-                end
-            end
-        end)
-    end)
-
-ToggleFarm = M:AddToggle({
-    Name = "ออโต้ฟาร์ม เลเวล",
+    Name = "Auto Farm",
     Default = false,
     Flag = "LevelFarm",
     Save = true,
@@ -3021,111 +3059,15 @@ ToggleFarm = M:AddToggle({
 })
 
 local Section = M:AddSection({
-    Name = "ฟาร์มลัดเลเวล | อาจจะมีบัค"
-})
-
-Farmfasttoggle = M:AddToggle({
-    Name = "ออโต้ฟาร์ม ลัดเลเวล",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.Farmfast = Value
-        StopTween(_G.Farmfast)
-    end    
-})
-
-local Section = M:AddSection({
-    Name = "ไก่ตัน"
+    Name = "Mastery Menu"
 })
 
 
 
 M:AddToggle({
-    Name = "ออโต้ไก่ตัน | ไม่ตึงเหมือนค่ายเสียเงินหรอกครับ",
+    Name = "Auto Farm BF Mastery",
     Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.RedeemCode = Value
-        _G.AutoFarm = Value
-        _G.Farmfast = Value
-       _G.SelectWeapon = "Combat"
-       _G.AutoPlayerHunter = Value
-       _G.Auto_Stats_Kaitun = Value
-       _G.Auto_Saber = Value
-       _G.AutoSuperhuman = Value
-       _G.AutoBartilo = Value
-       _G.AutoBuyLegendarySword = Value
-       _G.BuyAllAib = Value
-       StopTween(_G.AutoFarm)
-       StopTween(_G.Hunter)
-       StopTween(_G.Farmfast)
-       StopTween(_G.Auto_Saber)
-    end    
-})
-
-M:AddToggle({
-    Name = "ออโต้ คลิ๊ก | มีโอกาสโดนเตะเพราะจะตีเร็วเกิน",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.AutoClick = Value
-    end    
-})
-
-spawn(function()
-    game:GetService("RunService").RenderStepped:Connect(function()
-        if _G.AutoClick or Fastattack then
-             pcall(function()
-                game:GetService'VirtualUser':CaptureController()
-                game:GetService'VirtualUser':Button1Down(Vector2.new(0,1,0,1))
-            end)
-        end
-    end)
-   end)
-
-spawn(function()
-    while wait() do
-    if _G.RedeemCode then
-    if MyLevel >= 10 then
-        function RedeemCode(value)
-            game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
-        end
-        for i,v in pairs(x2Code) do
-            RedeemCode(v)
-                end
-            end
-        end
-    end
-end)
-
-local Section = M:AddSection({
-    Name = "ฟาร์มมอนรอบๆ"
-})
-
-M:AddToggle({
-    Name = "ออโต้ฟาร์ม มอนรอบๆ",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.AutoFarmNearest = Value
-        StopTween(_G.AutoFarmNearest)
-    end    
-})
-
-local Section = M:AddSection({
-    Name = "มาสเตอร์รี่"
-})
-
-
-
-M:AddToggle({
-    Name = "ออโต้ฟาร์ม มาสเตอร์รี่ ผลปีศาจ",
-    Default = false,
-    Flag = "",
+    Flag = "Mastery",
     Save = true,
     Callback = function(Value)
         _G.AutoFarmFruitMastery = Value
@@ -3137,9 +3079,9 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "ออโต้ฟาร์ม มาสเตอร์รี่ ปืน",
+    Name = "Auto Farm Gun Mastery",
     Default = false,
-    Flag = "",
+    Flag = "Gun Mastery",
     Save = true,
     Callback = function(Value)
         _G.AutoFarmGunMastery = Value
@@ -3148,7 +3090,7 @@ M:AddToggle({
 })
 
     M:AddSlider({
-        Name = "เลือดมอน",
+        Name = "Health Mob",
         Min = 0,
         Max = 100,
         Default = 25,
@@ -3163,9 +3105,9 @@ M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "สกิว Z",
-        Default = true,
-        Flag = "",
+        Name = "Skill Z",
+        Default = false,
+        Flag = "Skill Z",
         Save = true,
         Callback = function(Value)
             _G.SkillZ = Value
@@ -3173,10 +3115,10 @@ M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "สกิว X",
+        Name = "Skill! X",
         Default = false,
         Default = false,
-        Flag = "",
+        Flag = "Skill X",
         Save = true,
         Callback = function(Value)
             _G.SkillX = Value
@@ -3185,10 +3127,10 @@ M:AddToggle({
 
 
     M:AddToggle({
-        Name = "สกิว C",
+        Name = "Skill C",
         Default = false,
         Default = false,
-        Flag = "",
+        Flag = "Skill C",
         Save = true,
         Callback = function(Value)
             _G.SkillC = Value
@@ -3197,10 +3139,10 @@ M:AddToggle({
 
 
     M:AddToggle({
-        Name = "สกิว V",
+        Name = "Skill V",
         Default = false,
         Default = false,
-        Flag = "",
+        Flag = "Skill V",
         Save = true,
         Callback = function(Value)
             _G.SkillV = Value
@@ -3208,331 +3150,24 @@ M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "สกิว F",
+        Name = "Skill F",
         Default = false,
         Default = false,
-        Flag = "",
+        Flag = "Skill F",
         Save = true,
         Callback = function(Value)
             _G.SkillF = Value
         end    
     })
 
-   local Section = M:AddSection({
-    Name = "มอน | บอส"
-})
-
-if World1 then
-    M:AddDropdown({
-        Name = "เลือกมอน",
-        Default = "",
-        Options = {"Bandit","Monkey","Gorilla","Pirate","Brute","Desert Bandit","Desert Officer","Snow Bandit","Snowman","Chief Petty Officer","Sky Bandit","Dark Master","Prisoner", "Dangerous Prisoner","Toga Warrior","Gladiator","Military Soldier","Military Spy","Fishman Warrior","Fishman Commando","God's Guard","Shanda","Royal Squad","Royal Soldier","Galley Pirate ","Galley Captain"},
-        Callback = function(Value)
-            SelectMonster = Value
-        end    
-    })
-    end
-    
-    if World2 then
-    M:AddDropdown({
-        Name = "เลือกมอน",
-        Default = "",
-        Options = {"Raider","Mercenary","Swan Pirate","Factory Staff","Marine Lieutenant","Marine Captain","Zombie","Vampire","Snow Trooper","Winter Warrior","Lab Subordinate","Horned Warrior","Magma Ninja","Lava Pirate","Ship Deckhand","Ship Engineer","Ship Steward","Ship Officer","Arctic Warrior","Snow Lurker","Sea Soldier","Water Fighter"},
-        Callback = function(Value)
-            SelectMonster = Value
-        end    
-    }) 
-    end
-    
-    if World3 then
-    M:AddDropdown({
-        Name = "เลือกมอน",
-        Default = "",
-        Options = {"Pirate Millionaire","Dragon Crew Warrior","Dragon Crew Archer","Female Islander","Giant Islander","Marine Commodore","Marine Rear Admiral","Fishman Raider","Fishman Captain","Forest Pirate","Mythological Pirate","Jungle Pirate","Musketeer Pirate","Reborn Skeleton","Living Zombie","Demonic Soul","Posessed Mummy", "Peanut Scout", "Peanut President", "Ice Cream Chef", "Ice Cream Commander", "Cookie Crafter", "Cake Guard", "Baking Staff", "Head Baker", "Cocoa Warrior", "Chocolate Bar Battler", "Sweet Thief", "Candy Rebel", "Candy Pirate", "Snow Demon"},
-        Callback = function(Value)
-            SelectMonster = Value
-        end    
-    }) 
-    end
-    
-    M:AddToggle({
-        Name = "ออโต้ฟาร์ม มอน",
-        Default = false,
-        Callback = function(Value)
-            _G.AutoFarmSelectMonster = Value
-        end    
-    }) 
-
     local Section = M:AddSection({
-        Name = "ฟาร์ม กล่อง"
-    })
-
-TweenChest = M:AddToggle({
-        Name = "ออโต้ฟาร์ม กล่อง | บิน",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            AutoFarmChest = Value
-            StopTween(AutoFarmChest)
-        end    
-    })
-
-    M:AddToggle({
-        Name = "ออโต้ฟาร์ม กล่อง | บายพาส",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.ChestBypass = Value
-        end    
+        Name = "Bring Mob"
     })
 
 M:AddToggle({
-    Name = "จะหยุดเมื่อได้ | ถ้วยเสกแอดมิล | ถ้วยเสกบอสหนวดดำ",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.StopChest = Value
-    end    
-})
-spawn(function()
-    while wait() do
-    if _G.StopChest then
-        if game.Players.LocalPlayer.Backpack:FindFirstChild("Fist of Darkness") or game.Players.LocalPlayer.Character:FindFirstChild("Fist of Darkness") or game.Players.LocalPlayer.Backpack:FindFirstChild("God's Chalice") or game.Players.LocalPlayer.Character:FindFirstChild("God's Chalice") then
-            AutoFarmChest = false
-            StopTween(AutoFarmChest)
-            TweenChest:Set(false)
-        end
-    end
-end
-end)
-
-    local Section = M:AddSection({
-        Name = "Other Menu"
-    })
-
-if World3 then
-local EliteProgress = M:AddLabel("")
-
-    spawn(function()
-        pcall(function()
-            while wait() do
-                EliteProgress:Set("คุณกัดการ Elite ไปแล้ว |"..game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("EliteHunter","Progress"))
-            end
-        end)
-    end)
-
-    if World3 then
-    M:AddToggle({
-        Name = "ออโต้ Elite",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoElitehunter = Value
-            StopTween(_G.AutoElitehunter)
-        end    
-    })
-
-    if World2 then
-    M:AddToggle({
-        Name = "ออโต้ ตีโรงงาน",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoFactory = Value
-            StopTween(_G.AutoFactory)
-        end    
-    })
-
-        if World3 then
-        M:AddToggle({
-            Name = "ออโต้ โจรสลัดบุก",
-            Default = false,
-            Flag = "",
-            Save = true,
-            Callback = function(Value)
-                _G.RaidPirate = Value
-                StopTween(_G.RaidPirate)
-            end    
-        })
-
-local Section = M:AddSection({
-    Name = "บอส"
-})
-
-
-
-    local Section = M:AddSection({
-        Name = "ฮาคิแห่งการสังเกต"
-    })
-
-    M:AddToggle({
-        Name = "ออโต้ฟาร์ม ฮาคิสังเกต",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoObservation = Value
-            StopTween(_G.AutoObservation)
-        end    
-    })
-    
-    M:AddToggle({
-        Name = "ออโต้ฟาร์ม ฮาคิสังเกต | เปลี่ยนเซิฟ",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoObservation_Hop = Value
-        end    
-    })
-
-    local Section = M:AddSection({
-        Name = "หมัด V2"
-    })
-    
-    M:AddToggle({
-        Name = "ออโต้ ขาดำ",
-        Default = false,
-        Flag = "Auto ",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoDeathStep = Value
-        end    
-    })
-
-    M:AddToggle({
-        Name = "ออโต้ หมัดมนุษย์เงือก",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoSharkman = Value
-            StopTween(_G.AutoSharkman)
-        end    
-    })
-
- M:AddToggle({
-        Name = "ออโต้หมัด สายฟ้า",
-        Default = false,
-        Flag = "",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoElectricClaw = Value
-            StopTween(_G.AutoElectricClaw)
-        end    
-    })
-
-    M:AddToggle({
-        Name = "ออโต้ หมัดมังกร",
-        Default = false,
-        Flag = "Auto Dragon Talon",
-        Save = true,
-        Callback = function(Value)
-            _G.AutoDragonTalon = Value
-        end    
-    })
-
-    M:AddToggle({
-        Name = "ออโต้ หมัดยอดมนุษย์",
-        Default = false,
-        Flag = "Auto GodHuman",
-        Save = true,
-        Callback = function(Value)
-            _G.Auto_God_Human = Value
-        end    
-    })
-
-    ST:AddToggle({
-        Name = "ออโต้ ฮาคิ",
-        Default = true,
-        Callback = function(Value)
-            _G.AUTOHAKI = Value
-        end    
-    })
-    spawn(function()
-        while wait(.1) do
-            if _G.AUTOHAKI then 
-                if not game.Players.LocalPlayer.Character:FindFirstChild("HasBuso") then
-                    local args = {
-                        [1] = "Buso"
-                    }
-                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-                end
-            end
-        end
-    end)
-
-    ST:AddToggle({
-        Name = "แอนตี้ AFK",
-        Default = true,
-        Callback = function(Value)
-            local vu = game:GetService("VirtualUser")
-    repeat wait() until game:IsLoaded() 
-    game:GetService("Players").LocalPlayer.Idled:connect(function()
-    game:GetService("VirtualUser"):ClickButton2(Vector2.new())
-        vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-        wait(1)
-        vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-            end)
-        end    
-    })
-
-    ST:AddToggle({
-        Name = "เปิดจอขาว",
-        Default = false,
-        Flag = "White screen",
-        Save = true,
-        Callback = function(Value)
-            _G.WhiteScreen = Value
-if _G.WhiteScreen == true then
-    game:GetService("RunService"):Set3dRenderingEnabled(false)
-elseif _G.WhiteScreen == false then
-    game:GetService("RunService"):Set3dRenderingEnabled(true)
-        end
-    end
-    })
-
-    function CheckAntiCheatBypass()
-        for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
-            if v:IsA("LocalScript") then
-                if v.Name == "General" or v.Name == "Shiftlock"  or v.Name == "FallDamage" or v.Name == "4444" or v.Name == "CamBob" or v.Name == "JumpCD" or v.Name == "Looking" or v.Name == "Run" then
-                    v:Destroy()
-                end
-            end
-         end
-         for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerScripts:GetDescendants()) do
-            if v:IsA("LocalScript") then
-                if v.Name == "RobloxMotor6DBugFix" or v.Name == "Clans"  or v.Name == "Codes" or v.Name == "CustomForceField" or v.Name == "MenuBloodSp"  or v.Name == "PlayerList" then
-                    v:Destroy()
-                end
-            end
-         end
-        end
-    
-    CheckAntiCheatBypass()
-    
-    ST:AddToggle({
-        Name = "แอนตี้แบน",
-        Default = true,
-        Callback = function(Value)
-            _G.AntiCheat = Value
-            CheckAntiCheatBypass()
-        end    
-    })
-    
-    local Section = M:AddSection({
-        Name = "รวมมอน"
-    })
-
-ST:AddToggle({
-    Name = "รวมมอน | แนะนำให้เลือกเป็น Normal เพื่อกันตีมอนไม่เข้า",
+    Name = "Bring Mobs[Fix]",
     Default = true,
-    Flag = "",
+    Flag = "Bring Mobs",
     Save = false,
     Callback = function(Value)
         _G.BringMonster = Value
@@ -3540,12 +3175,12 @@ ST:AddToggle({
 })
 local Bring = {"Low", "Normal", "Super Bring"}
 _G.BringMode = "Normal"
-ST:AddDropdown({
-    Name = "รวมมอน",
+M:AddDropdown({
+    Name = "Bring Mode",
     Default = "Normal",
     Options = Bring,
     Default = false,
-    Flag = "",
+    Flag = "Bring Mode",
     Save = true,
     Callback = function(Value)
         _G.BringMode = Value
@@ -3556,25 +3191,25 @@ spawn(function()
         if _G.BringMode then
             pcall(function()
                 if _G.BringMode == "Low" then
-                    _G.BringMode = 250
-                elseif _G.BringMode == "Normal" then
                     _G.BringMode = 300
-                elseif _G.BringMode == "Super Bring" then
+                elseif _G.BringMode == "Normal" then
                     _G.BringMode = 350
+                elseif _G.BringMode == "Super Bring" then
+                    _G.BringMode = 380
                 end
             end)
         end
     end
 end)
 
-local Section = ST:AddSection({
-    Name = "ความเร็วในการโจมตี :"
+local Section = M:AddSection({
+    Name = "FastAttack :"
 })
 
-ST:AddToggle({
-    Name = "ความเร็วโจมตี",
+M:AddToggle({
+    Name = "FastAttack",
     Default = true,
-    Flag = "",
+    Flag = "FastAttack",
     Save = false,
     Callback = function(Value)
         _G.FastAttack = Value
@@ -3614,11 +3249,11 @@ spawn(function()
 end)
 
 local AttackList = {"0", "0.1", "0.175", "0.2", "0.25", "0.3", "0.35", "0.4", "0.45", "0.5", "0.55", "0.6", "0.65", "0.7", "0.75", "0.8", "0.85", "0.9", "0.95", "0.1"}
-ST:AddDropdown({
-	Name = "ละยะเวลาโจมตี | แนะนำ 0.35",
+M:AddDropdown({
+	Name = "Attack Time",
 	Default = "0.5",
 	Options = AttackList,
-    Flag = "",
+    Flag = "FastAttack Delay",
     Save = true,
 	Callback = function(Value)
 		_G.FastAttackDelay = Value
@@ -3674,10 +3309,10 @@ spawn(function()
     end
 end)
 
-ST:AddToggle({
-    Name = "คอมโบความเร็วโจมตี",
+M:AddToggle({
+    Name = "Fast Attack",
     Default = true,
-    Flag = "",
+    Flag = "FastAttack",
     Save = true,
     Callback = function(Value)
         _G.FastNe = Value
@@ -3707,14 +3342,14 @@ spawn(function()
         end
     end)
 end) 
-local Section = ST:AddSection({
-    Name = "วาป + รีตัว"
+local Section = M:AddSection({
+    Name = "Bypass Teleport"
 })
 
-ST:AddToggle({
-    Name = "บายพาสทีรีพอร์ต | วาป + รีตัว",
+M:AddToggle({
+    Name = "Bypass TP[BETA]",
     Default = false,
-    Flag = "",
+    Flag = "Bypass TP",
     Save = true,
     Callback = function(Value)
         BypassTP = true 
@@ -3722,13 +3357,13 @@ ST:AddToggle({
 })
 
 
-local Section = ST:AddSection({
-    Name = "ระยะห่างจาก มอน"
+local Section = M:AddSection({
+    Name = "Distance Mobs"
 })
 
-PosY = 35
-ST:AddSlider({
-    Name = "ระยะห่างจาก มอน",
+PosY = 30
+M:AddSlider({
+    Name = "Distance Mob",
     Min = 0,
     Max = 65,
     Default = PosY,
@@ -3743,74 +3378,524 @@ ST:AddSlider({
     end    
 })
 
+local Section = M:AddSection({
+    Name = "Farm Fast : Lv 10 => 120"
+})
 
-ST:AddToggle({
-    Name = "ออโต้ กดสกิว เผ่า V3",
+Farmfasttoggle = M:AddToggle({
+    Name = "Auto Farm Fast",
     Default = false,
-    Flag = "",
+    Flag = "Farm Fast",
     Save = true,
     Callback = function(Value)
-        _G.V3 = Value
+        _G.Farmfast = Value
+        StopTween(_G.Farmfast)
     end    
 })
+
+local Section = M:AddSection({
+    Name = "Kaitun dỏm"
+})
+
+
+
+M:AddToggle({
+    Name = "Kaitun[Ko có kill players]",
+    Default = false,
+    Flag = "Kaitun",
+    Save = true,
+    Callback = function(Value)
+        _G.RedeemCode = Value
+        _G.AutoFarm = Value
+        _G.Farmfast = Value
+       _G.SelectWeapon = "Combat"
+       _G.AutoPlayerHunter = Value
+       _G.Auto_Stats_Kaitun = Value
+       _G.Auto_Saber = Value
+       _G.AutoSuperhuman = Value
+       _G.AutoBartilo = Value
+       _G.AutoBuyLegendarySword = Value
+       _G.BuyAllAib = Value
+       StopTween(_G.AutoFarm)
+       StopTween(_G.Hunter)
+       StopTween(_G.Farmfast)
+       StopTween(_G.Auto_Saber)
+    end    
+})
+
+M:AddToggle({
+    Name = "Auto Click[Kick]",
+    Default = false,
+    Flag = "Auto Click",
+    Save = true,
+    Callback = function(Value)
+        _G.AutoClick = Value
+    end    
+})
+
+spawn(function()
+    game:GetService("RunService").RenderStepped:Connect(function()
+        if _G.AutoClick or Fastattack then
+             pcall(function()
+                game:GetService'VirtualUser':CaptureController()
+                game:GetService'VirtualUser':Button1Down(Vector2.new(0,1,0,1))
+            end)
+        end
+    end)
+   end)
+
 spawn(function()
     while wait() do
-        pcall(function()
-            if _G.V3 then
-                game:GetService("VirtualInputManager"):SendKeyEvent(true,"T",false,game)
-                wait(0.1)
-                game:GetService("VirtualInputManager"):SendKeyEvent(false,"T",false,game)
+    if _G.RedeemCode then
+    if MyLevel >= 10 then
+        function RedeemCode(value)
+            game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
+        end
+        for i,v in pairs(x2Code) do
+            RedeemCode(v)
+                end
             end
-        end)
+        end
     end
 end)
 
-ST:AddToggle({
-    Name = "ออโต้ กดสกิว เผ่า V4",
-    Default = false,
-    Flag = "",
-    Save = true,
-    Callback = function(Value)
-        _G.V4 = Value
-    end    
+   local Section = M:AddSection({
+    Name = "Mob & Boss Farm"
 })
-spawn(function()
-    while wait() do
-        pcall(function()
-            if _G.V4 then
-                game:GetService("VirtualInputManager"):SendKeyEvent(true,"Y",false,game)
-                wait(0.1)
-                game:GetService("VirtualInputManager"):SendKeyEvent(false,"Y",false,game)
-            end
-        end)
-    end
-end)
-
 
 if World1 then
+    M:AddDropdown({
+        Name = "Select Mobs",
+        Default = "",
+        Options = {"Bandit","Monkey","Gorilla","Pirate","Brute","Desert Bandit","Desert Officer","Snow Bandit","Snowman","Chief Petty Officer","Sky Bandit","Dark Master","Prisoner", "Dangerous Prisoner","Toga Warrior","Gladiator","Military Soldier","Military Spy","Fishman Warrior","Fishman Commando","God's Guard","Shanda","Royal Squad","Royal Soldier","Galley Pirate ","Galley Captain"},
+        Callback = function(Value)
+            SelectMonster = Value
+        end    
+    })
+    end
+    
+    if World2 then
+    M:AddDropdown({
+        Name = "Select Mobs",
+        Default = "",
+        Options = {"Raider","Mercenary","Swan Pirate","Factory Staff","Marine Lieutenant","Marine Captain","Zombie","Vampire","Snow Trooper","Winter Warrior","Lab Subordinate","Horned Warrior","Magma Ninja","Lava Pirate","Ship Deckhand","Ship Engineer","Ship Steward","Ship Officer","Arctic Warrior","Snow Lurker","Sea Soldier","Water Fighter"},
+        Callback = function(Value)
+            SelectMonster = Value
+        end    
+    }) 
+    end
+    
+    if World3 then
+    M:AddDropdown({
+        Name = "Select Mobs",
+        Default = "",
+        Options = {"Pirate Millionaire","Dragon Crew Warrior","Dragon Crew Archer","Female Islander","Giant Islander","Marine Commodore","Marine Rear Admiral","Fishman Raider","Fishman Captain","Forest Pirate","Mythological Pirate","Jungle Pirate","Musketeer Pirate","Reborn Skeleton","Living Zombie","Demonic Soul","Posessed Mummy", "Peanut Scout", "Peanut President", "Ice Cream Chef", "Ice Cream Commander", "Cookie Crafter", "Cake Guard", "Baking Staff", "Head Baker", "Cocoa Warrior", "Chocolate Bar Battler", "Sweet Thief", "Candy Rebel", "Candy Pirate", "Snow Demon"},
+        Callback = function(Value)
+            SelectMonster = Value
+        end    
+    }) 
+    end
+    
+    M:AddToggle({
+        Name = "Farm Mob",
+        Default = false,
+        Callback = function(Value)
+            _G.AutoFarmSelectMonster = Value
+        end    
+    }) 
+
+local Section = M:AddSection({
+    Name = "Nearest Farm"
+})
+
+M:AddToggle({
+    Name = "Auto Farm Nearest",
+    Default = false,
+    Flag = "Auto Farm Nearest",
+    Save = true,
+    Callback = function(Value)
+        _G.AutoFarmNearest = Value
+        StopTween(_G.AutoFarmNearest)
+    end    
+})
+
+    local Section = M:AddSection({
+        Name = "Chest Farm"
+    })
+
+TweenChest = M:AddToggle({
+        Name = "Auto Chest [MUP]",
+        Default = false,
+        Flag = "Auto Chest",
+        Save = true,
+        Callback = function(Value)
+            AutoFarmChest = Value
+            StopTween(AutoFarmChest)
+        end    
+    })
+
+    M:AddToggle({
+        Name = "Auto Chest[Bypass]",
+        Default = false,
+        Flag = "Auto Chest[Bypass]",
+        Save = true,
+        Callback = function(Value)
+            _G.ChestBypass = Value
+        end    
+    })
+
+M:AddToggle({
+    Name = "Stop Only Dark Key or God's Chalice",
+    Default = false,
+    Flag = "Stop Only Dark Key or God's Chalice",
+    Save = true,
+    Callback = function(Value)
+        _G.StopChest = Value
+    end    
+})
+spawn(function()
+    while wait() do
+    if _G.StopChest then
+        if game.Players.LocalPlayer.Backpack:FindFirstChild("Fist of Darkness") or game.Players.LocalPlayer.Character:FindFirstChild("Fist of Darkness") or game.Players.LocalPlayer.Backpack:FindFirstChild("God's Chalice") or game.Players.LocalPlayer.Character:FindFirstChild("God's Chalice") then
+            AutoFarmChest = false
+            StopTween(AutoFarmChest)
+            TweenChest:Set(false)
+        end
+    end
+end
+end)
+
+local Section = M:AddSection({
+    Name = "Bone Menu"
+})
+
+local Bone = M:AddLabel("Bone : ")
+
+spawn(function()
+    while wait() do
+        pcall(function()
+            Bone:Set("Bone You Have : "..(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Check")))
+        end)
+    end
+end)
+
+ToggleBone = M:AddToggle({
+    Name = "Auto Farm Bone",
+    Default = false,
+    Flag = "Auto Farm Bone",
+    Save = true,
+    Callback = function(Value)
+        _G.Auto_Bone = Value
+        StopTween(_G.Auto_Bone)
+    end    
+})
+        
+ToggleRandom = M:AddToggle({
+        Name = "Auto Random Bone",
+        Default = false,
+        Flag = "Auto Random Bone",
+        Save = true,
+        Callback = function(Value)
+            _G.Auto_Random_Bone = Value
+        end    
+    })
+    spawn(function()
+        pcall(function()
+            while wait(.1) do
+                if _G.Auto_Random_Bone then    
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Buy",1,1)
+                end
+            end
+        end)
+    end)
+    
+    local Section = M:AddSection({
+        Name = "Other Menu"
+    })
+
+local EliteProgress = M:AddLabel("")
+
+    spawn(function()
+        pcall(function()
+            while wait() do
+                EliteProgress:Set("Elite Progress : "..game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("EliteHunter","Progress"))
+            end
+        end)
+    end)
+
+    M:AddToggle({
+        Name = "Auto Elite",
+        Default = false,
+        Flag = "Auto Elite",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoElitehunter = Value
+            StopTween(_G.AutoElitehunter)
+        end    
+    })
+
+
+    M:AddToggle({
+        Name = "Auto Factory",
+        Default = false,
+        Flag = "Auto Factory",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoFactory = Value
+            StopTween(_G.AutoFactory)
+        end    
+    })
+
+        M:AddToggle({
+            Name = "Raid Castle",
+            Default = false,
+            Flag = "Auto Castle",
+            Save = true,
+            Callback = function(Value)
+                _G.RaidPirate = Value
+                StopTween(_G.RaidPirate)
+            end    
+        })
+        local Section = M:AddSection({
+            Name = "Dough King Menu"
+        })
+        
+
+        M:AddToggle({
+            Name = "Auto Katakuri",
+            Default = false,
+            Flag = "Auto Katakuri",
+            Save = true,
+            Callback = function(Value)
+                _G.AutoDoughtBoss = Value
+                StopTween(_G.AutoDoughtBoss)
+            end    
+        })    
+        
+        M:AddToggle({
+            Name = "Auto Spawn Katakuri",
+            Default = true,
+            Callback = function(Value)
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner",Value)
+            end    
+        })
+        
+        M:AddToggle({
+            Name = "Auto Katakuri v2",
+            Default = false,
+            Flag = "Auto Katakuri v2",
+            Save = true,
+            Callback = function(Value)
+                _G.Autodoughking = Value
+                StopTween(_G.Autodoughking)
+            end    
+        })
+        
+        M:AddToggle({
+            Name = "Auto Katakuri v2[HOP]",
+            Default = false,
+            Flag = "Auto Katakuri v2[HOP]",
+            Save = true,
+            Callback = function(Value)
+                _G.Hop = Value
+            end    
+        })
+
+local Section = M:AddSection({
+    Name = "Boss"
+})
+
+
+
+    local Section = M:AddSection({
+        Name = "Observation Haki"
+    })
+
+    M:AddToggle({
+        Name = "Auto Farm Observation Haki",
+        Default = false,
+        Flag = "Auto Farm Observation Haki",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoObservation = Value
+            StopTween(_G.AutoObservation)
+        end    
+    })
+    
+    M:AddToggle({
+        Name = "Auto Farm Observation Haki[HOP]",
+        Default = false,
+        Flag = "Auto Farm Observation Haki[HOP]",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoObservation_Hop = Value
+        end    
+    })
+
+    local Section = M:AddSection({
+        Name = "Melee v2"
+    })
+    
+    M:AddToggle({
+        Name = "Auto Death Step",
+        Default = false,
+        Flag = "Auto Death Step",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoDeathStep = Value
+        end    
+    })
+
+    M:AddToggle({
+        Name = "Auto SharkMan Karate",
+        Default = false,
+        Flag = "Auto SharkMan",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoSharkman = Value
+            StopTween(_G.AutoSharkman)
+        end    
+    })
+
+ M:AddToggle({
+        Name = "Auto Electric Claw",
+        Default = false,
+        Flag = "Auto Electric Claw",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoElectricClaw = Value
+            StopTween(_G.AutoElectricClaw)
+        end    
+    })
+
+    M:AddToggle({
+        Name = "Auto Dragon Talon",
+        Default = false,
+        Flag = "Auto Dragon Talon",
+        Save = true,
+        Callback = function(Value)
+            _G.AutoDragonTalon = Value
+        end    
+    })
+
+    M:AddToggle({
+        Name = "Auto GodHuman",
+        Default = false,
+        Flag = "Auto GodHuman",
+        Save = true,
+        Callback = function(Value)
+            _G.Auto_God_Human = Value
+        end    
+    })
+
+    ST:AddToggle({
+        Name = "Auto Haki",
+        Default = true,
+        Callback = function(Value)
+            _G.AUTOHAKI = Value
+        end    
+    })
+    spawn(function()
+        while wait(.1) do
+            if _G.AUTOHAKI then 
+                if not game.Players.LocalPlayer.Character:FindFirstChild("HasBuso") then
+                    local args = {
+                        [1] = "Buso"
+                    }
+                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+                end
+            end
+        end
+    end)
+
+    ST:AddToggle({
+        Name = "Anti Afk",
+        Default = true,
+        Callback = function(Value)
+            local vu = game:GetService("VirtualUser")
+    repeat wait() until game:IsLoaded() 
+    game:GetService("Players").LocalPlayer.Idled:connect(function()
+    game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+        vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+        wait(1)
+        vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+            end)
+        end    
+    })
+
+    ST:AddToggle({
+        Name = "White screen",
+        Default = false,
+        Flag = "White screen",
+        Save = true,
+        Callback = function(Value)
+            _G.WhiteScreen = Value
+if _G.WhiteScreen == true then
+    game:GetService("RunService"):Set3dRenderingEnabled(false)
+elseif _G.WhiteScreen == false then
+    game:GetService("RunService"):Set3dRenderingEnabled(true)
+        end
+    end
+    })
+
+    function CheckAntiCheatBypass()
+        for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
+            if v:IsA("LocalScript") then
+                if v.Name == "General" or v.Name == "Shiftlock"  or v.Name == "FallDamage" or v.Name == "4444" or v.Name == "CamBob" or v.Name == "JumpCD" or v.Name == "Looking" or v.Name == "Run" then
+                    v:Destroy()
+                end
+            end
+         end
+         for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerScripts:GetDescendants()) do
+            if v:IsA("LocalScript") then
+                if v.Name == "RobloxMotor6DBugFix" or v.Name == "Clans"  or v.Name == "Codes" or v.Name == "CustomForceField" or v.Name == "MenuBloodSp"  or v.Name == "PlayerList" then
+                    v:Destroy()
+                end
+            end
+         end
+        end
+    
+    CheckAntiCheatBypass()
+    
+    ST:AddToggle({
+        Name = "Antiban",
+        Default = true,
+        Callback = function(Value)
+            _G.AntiCheat = Value
+            CheckAntiCheatBypass()
+        end    
+    })
+    
+    ST:AddToggle({
+        Name = "auto bật  v4",
+        Default = false,
+        Callback = function(Value)
+        AutoAwakeningRace = Value
+        end    
+    })
+    
+
 local Section = IQ:AddSection({
-    Name = "ดาบ เซเบอร์"
+    Name = "Saber Menu"
 })
 
-if World1 then
-local SaberBoss = IQ:AddLabel("บอส เซเบอร์ | ")
+local SaberBoss = IQ:AddLabel("Boss Saber : ")
 spawn(function()
     while wait() do
         pcall(function()
             if game:GetService("ReplicatedStorage"):FindFirstChild("Saber Expert") or game:GetService("ReplicatedStorage"):FindFirstChild("Saber Expert") or game:GetService("ReplicatedStorage"):FindFirstChild("Saber Expert") or game:GetService("Workspace").Enemies:FindFirstChild("Saber Expert") or game:GetService("Workspace").Enemies:FindFirstChild("Saber Expert") or game:GetService("Workspace").Enemies:FindFirstChild("Saber Expert") then
-                SaberBoss:Set("บอสเซเบอร์ | 🟢")
+                SaberBoss:Set("Boss Saber : ✅ Spawn")
             else
-                SaberBoss:Set("บอสเซเบอร์ | 🔴")
+                SaberBoss:Set("Boss Saber : ❌ Not Spawn")
             end
         end)
     end
 end)
 
-if World1 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบเซเบอร์",
+    Name = "Auto Saber",
     Default = false,
-    Flag = "",
+    Flag = "Auto Saber",
     Save = true,
     Callback = function(Value)
         _G.Auto_Saber = Value
@@ -3818,41 +3903,38 @@ IQ:AddToggle({
     end    
 })
 
-if World1 then
+
 IQ:AddToggle({
-    Name = "ออโต้ ดาบเซเบอร์ | เปลี่ยนเซิฟ",
+    Name = "Auto Saber[HOP]",
     Default = false,
-    Flag = "",
+    Flag = "Auto Saber[HOP]",
     Save = true,
     Callback = function(Value)
         _G.Hop = Value
     end    
 })
 
-if World1 then
 local Section = IQ:AddSection({
-    Name = "กระบองสายฟ้า V1"
+    Name = "Pole V.1"
 })
 
-if World1 then
-local PoleBoss = IQ:AddLabel("บอสเทพสายฟ้า | ")
+local PoleBoss = IQ:AddLabel("Boss Thunder God : ")
 spawn(function()
     while wait() do
         pcall(function()
             if game:GetService("ReplicatedStorage"):FindFirstChild("Thunder God") or game:GetService("ReplicatedStorage"):FindFirstChild("Thunder God") or game:GetService("ReplicatedStorage"):FindFirstChild("Thunder God") or game:GetService("Workspace").Enemies:FindFirstChild("Thunder God") or game:GetService("Workspace").Enemies:FindFirstChild("Thunder God") or game:GetService("Workspace").Enemies:FindFirstChild("Thunder God") then
-                PoleBoss:Set("บอสสายฟ้า | 🟢")
+                PoleBoss:Set("Boss Thunder : ✅ Spawn")
             else
-                PoleBoss:Set("บอสสายฟ้า | 🔴")
+                PoleBoss:Set("Boss Thunder : ❌ Not Spawn")
             end
         end)
     end
 end)
 
-if World1 then
 TogglePolev1 = IQ:AddToggle({
-    Name = "ออโต้ กระบองสายฟ้า V1",
+    Name = "Auto Pole V.1",
     Default = false,
-    Flag = "",
+    Flag = "Auto Pole",
     Save = true,
     Callback = function(Value)
         _G.Autopole = Value
@@ -3860,27 +3942,24 @@ TogglePolev1 = IQ:AddToggle({
     end    
 })
 
-if World1 then
 TogglePolev1Hop = IQ:AddToggle({
-    Name = "ออโต้ กระบองสายฟ้า  V1 | เปลี่ยนเซิฟ",
+    Name = "Auto Pole V.1[HOP]",
     Default = false,
-    Flag = "",
+    Flag = "Auto Pole[HOP]",
     Save = true,
     Callback = function(Value)
         _G.AutopoleHop = Value
     end    
 })
 
-if World1 then
 local Section = IQ:AddSection({
-    Name = "โลก 2 | ทะเลที่ 2"
+    Name = "Second Sea"
 })
 
-if World1 then
 IQ:AddToggle({
-    Name = "ออโต้ โลก 2",
+    Name = "Auto Second Sea",
     Default = false,
-    Flag = "",
+    Flag = "Auto Second",
     Save = true,
     Callback = function(Value)
         _G.AutoSecondSea = Value
@@ -3888,15 +3967,13 @@ IQ:AddToggle({
     end    
 })
 
-if World2 then
 local Section = IQ:AddSection({
-    Name = "แวมไพร์"
+    Name = "Vampire"
 })
-if World2 then
 IQ:AddToggle({
-    Name = "ออโต้ฟาร์ม แวมไพร์",
+    Name = "Auto Vampire",
     Default = false,
-    Flag = "",
+    Flag = "Auto Vampire",
     Save = true,
     Callback = function(Value)
         _G.AutoVampire = Value
@@ -3906,13 +3983,13 @@ IQ:AddToggle({
 
 
 local Section = IQ:AddSection({
-    Name = "ซุปเปอร์ฮิวแมน"
+    Name = "SuperHuman"
 })
 
 IQ:AddToggle({
-    Name = "ออโต้ ซุปเปอร์ฮิวแมน",
+    Name = "Auto SuperHuman",
     Default = false,
-    Flag = "",
+    Flag = "Auto SuperHuman",
     Save = true,
     Callback = function(Value)
         _G.AutoSuperhuman = Value
@@ -3921,12 +3998,12 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "บาร์ติโล"
+    Name = "Bartilo"
 })
 
 
 BartiloToggle = IQ:AddToggle({
-    Name = "ออโต้ บาร์ติโล เควสต์",
+    Name = "Auto Bartilo Quest",
     Default = false,
     Flag = "Auto Bartilo",
     Save = true,
@@ -3937,16 +4014,15 @@ BartiloToggle = IQ:AddToggle({
     end    
 })
 
-if World2 then
 local Section = IQ:AddSection({
-    Name = "โลก 3"
+    Name = "Next Sea Third"
 })
 
-if World2 then
+
 IQ:AddToggle({
-    Name = "ออโต้ โลก 3",
+    Name = "Auto Third Sea",
     Default = false,
-    Flag = "",
+    Flag = "Auto Third",
     Save = true,
     Callback = function(Value)
         _G.AutoThirdSea = Value
@@ -3954,27 +4030,24 @@ IQ:AddToggle({
     end    
 })
 
-if World2 then
 IQ:AddToggle({
-    Name = "ออโต้ ซื้อดาบในตำนาน",
+    Name = "Auto Buy Legend Sword",
     Default = false,
-    Flag = "",
+    Flag = "Auto Legend",
     Save = true,
     Callback = function(Value)
         _G.AutoBuyLegendarySword = Value
     end    
 })
 
-if World3 then
 local Section = IQ:AddSection({
-    Name = "ดาบ บิ๊กมำ"
+    Name = "Buddy Sword"
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบบิ๊กมำ",
+    Name = "Auto Buddy Sword",
     Default = false,
-    Flag = "",
+    Flag = "Auto Buddy",
     Save = true,
     Callback = function(Value)
         _G.AutoBudySword = Value
@@ -3982,25 +4055,22 @@ IQ:AddToggle({
     end    
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบบิ๊กมำ | เปลี่ยนเซิฟ",
+    Name = "Auto Buddy Sword[HOP]",
     Default = false,
-    Flag = "",
+    Flag = "Auto Buddy[HOP]",
     Save = true,
     Callback = function(Value)
         _G.Hop = Value
     end    
 })
 
-    if World3 then
     local Section = IQ:AddSection({
-        Name = "โซล กีต้า"
+        Name = "Soul Guita"
     })
 
-    if World3 then
     IQ:AddToggle({
-        Name = "ออโต้ โซล กีต้า",
+        Name = "Auto Soul Guita",
         Default = false,
         Flag = "Auto Soul",
         Save = true,
@@ -4010,22 +4080,20 @@ IQ:AddToggle({
         end    
     })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ โซล กีต้า | เปลี่ยนเซิฟ",
+    Name = "Auto Soul Guita[HOP]",
     Default = false,
-    Flag = "",
+    Flag = "Auto Soul[HOP]",
     Save = true,
     Callback = function(Value)
         _G.Hop = Value  
     end    
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ฮาคิสังเกต V2",
+    Name = "Auto Auto Observation V2",
     Default = false,
-    Flag = "",
+    Flag = "Auto ObservationV2",
     Save = true,
     Callback = function(Value)
         _G.AutoObservationHakiV2 = Value  
@@ -4033,16 +4101,14 @@ IQ:AddToggle({
     end    
 })
 
-if World3 then
 local Section = IQ:AddSection({
-    Name = "ออโต้ ดาบคู่ | ถ้าไม่ทำงาน = ตัวรันไม่รองรับ"
+    Name = "Auto Dual Curset Katana[Not Work]"
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบคู่",
+    Name = "Auto Dual Curset Katana",
     Default = false,
-    Flag = "",
+    Flag = "Auto DualCursetKatana",
     Save = true,
     Callback = function(Value)
         Auto_Cursed_Dual_Katana = Value
@@ -4050,16 +4116,14 @@ IQ:AddToggle({
     end    
 })
 
-if World3 then
 local Section = IQ:AddSection({
-    Name = "ดาบทูชิตะ"
+    Name = "Tushita"
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบทูชิตะ | เสกแอดมิลก่อน",
+    Name = "Auto Tushita",
     Default = false,
-    Flag = "",
+    Flag = "Auto Tushita",
     Save = true,
     Callback = function(Value)
         _G.Autotushita = Value
@@ -4068,27 +4132,24 @@ IQ:AddToggle({
     end    
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบทูชิตะ | เปลี่ยนเซิฟ",
+    Name = "Auto Tushita[HOP]",
     Default = false,
-    Flag = "",
+    Flag = "Auto Tushita[HOP]",
     Save = true,
     Callback = function(Value)
         _G.Hop = Value
     end  
 })
 
-if World3 then
 local Section = IQ:AddSection({
-    Name = "ดาบคาวานเดอร์"
+    Name = "Cavander"
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบคาวานเดอร์",
+    Name = "Auto Cavander",
     Default = false,
-    Flag = "",
+    Flag = "Auto Cavander",
     Save = true,
     Callback = function(Value)
         _G.AutoCarvender = Value
@@ -4096,27 +4157,24 @@ IQ:AddToggle({
     end    
 })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ ดาบคาวานเดอร์ | เปลี่ยนเซิฟ",
+    Name = "Auto Cavander[HOP]",
     Default = false,
-    Flag = "",
+    Flag = "Auto Cavander[HOP]",
     Save = true,
     Callback = function(Value)
         _G.Hop = Value
     end    
 })
 
-        if World3 then
         local Section = IQ:AddSection({
-            Name = "ตะขอคู่"
+            Name = "Twin Hook"
         })
 
-        if World3 then
         IQ:AddToggle({
-            Name = "ออโต้ ตะขอคู่",
+            Name = "Auto Twin Hook",
             Default = false,
-            Flag = "",
+            Flag = "Auto Twin",
             Save = true,
             Callback = function(Value)
                 _G.AutoTwinHook = Value
@@ -4124,11 +4182,10 @@ IQ:AddToggle({
             end    
         })
         
-        if World3 then
         IQ:AddToggle({
-            Name = "ออโต้ ตะขอคู่ | เปลี่ยนเซิฟ",
+            Name = "Auto Twin Hook | HOP",
             Default = false,
-            Flag = "",
+            Flag = "Auto Twin | HOP",
             Save = true,
             Callback = function(Value)
                 _G.Hop = Value
@@ -4136,15 +4193,15 @@ IQ:AddToggle({
         })
         
         local Section = IQ:AddSection({
-            Name = "อารีน่าเทรนเนอร์"
+            Name = "ArenaTrainer"
         })
 
-        IQ:AddLabel("สำหรับคนที่ไม่เข้าใจนี่คือการตีดัมมี่อัตโนมัติ")
+        IQ:AddLabel("For those who don't understand, this is automatic dummy beating")
 
         IQ:AddToggle({
-            Name = "ออโต้ ดัมมี่",
+            Name = "Automatically hit the dummy",
             Default = false,
-            Flag = "",
+            Flag = "Auto dummy",
             Save = true,
             Callback = function(Value)
                 _G.Namfon = Value
@@ -4153,25 +4210,23 @@ IQ:AddToggle({
         })
 
         IQ:AddToggle({
-            Name = "ออโต้ ดัมมี่ | เปลี่ยนเซิฟ",
+            Name = "Auto matically hit the dummy | HOP",
             Default = false,
-            Flag = "",
+            Flag = "Auto dummy | HOP",
             Save = true,
             Callback = function(Value)
                 _G.Hop = Value
             end    
         })
 
-        if World3 then
         local Section = IQ:AddSection({
-            Name = "บอสเคียว"
+            Name = "Seperator Hallow Scythe"
         })
 
-        if World3 then
         IQ:AddToggle({
-            Name = "ออโต้ บอสเคียว",
+            Name = "Auto Hallow Scythe",
             Default = false,
-            Flag = "",
+            Flag = "Auto Hallow",
             Save = true,
             Callback = function(Value)
                 _G.AutoFarmBossHallow = Value
@@ -4179,27 +4234,24 @@ IQ:AddToggle({
             end    
         })
 
-if World3 then
 ToggleHallow = IQ:AddToggle({
-            Name = "ออโต้ บอสเคียว  | เปลี่ยนเซิฟ",
+            Name = "Auto Hallow Scythe | HOP",
             Default = false,
-            Flag = "",
+            Flag = "Auto Hallow | HOP",
             Save = true,
             Callback = function(Value)
                 _G.Hop = Value
             end    
         })
 
-        if World3 then
         local Section = IQ:AddSection({
-            Name = "โยรุจิ๋ว"
+            Name = "Dark Dragger"
         })
 
-        if World3 then
         IQ:AddToggle({
-            Name = "ออโต้ โยรุจิ๋ว",
+            Name = "Auto Dark Dragger",
             Default = false,
-            Flag = "",
+            Flag = "Auto Dark",
             Save = true,
             Callback = function(Value)
                 _G.AutoDarkDagger = Value
@@ -4207,11 +4259,10 @@ ToggleHallow = IQ:AddToggle({
             end    
         })
 
-        if World3 then
         IQ:AddToggle({
-            Name = "ออโต้ โยรุจิ๋ว | เปลี่ยนเซิฟ",
+            Name = "Auto Dark Dragger | HOP",
             Default = false,
-            Flag = "",
+            Flag = "Auto Dark | HOP",
             Save = true,
             Callback = function(Value)
                 _G.Hop = Value
@@ -4242,13 +4293,13 @@ ToggleHallow = IQ:AddToggle({
     end
 
     local Section = IQ:AddSection({
-        Name = "เจ้าทะเล"
+        Name = "SeaBeast"
     })
 
     IQ:AddToggle({
-        Name = "ออโต้ เจ้าทะเล",
+        Name = "Auto Seabeast",
         Default = false,
-        Flag = "",
+        Flag = "Auto Seabeast",
         Save = true,
         Callback = function(Value)
             _G.AutoSeaBest = Value
@@ -4257,9 +4308,9 @@ ToggleHallow = IQ:AddToggle({
     })
 
 IQ:AddToggle({
-    Name = "ออโต้ เจ้าทะเล | เปลี่ยนเซิฟ",
+    Name = "Auto Seabeast | HOP",
     Default = false,
-    Flag = "",
+    Flag = "Auto Seabeast | HOP",
     Save = true,
     Callback = function(Value)
         _G.Hop = Value
@@ -4278,16 +4329,14 @@ spawn(function()
     end)
 end)
 
-if World3 then
 local Section = IQ:AddSection({
-        Name = "เกาะลับ"
+        Name = "Mirrage Menu"
     })
 
-if World3 then
 IQ:AddToggle({
-    Name = "ออโต้ หาเกาะลับ | เบต้า",
+    Name = "ออโต้ หาเกาะลับ",
     Default = false,
-    Flag = "",
+    Flag = "Auto Mirrage",
     Save = true,
     Callback = function(Value)
         _G.dao = Value
@@ -4358,11 +4407,10 @@ IQ:AddToggle({
     end    
 }) 
     
-if World3 then
 IQ:AddToggle({
-    Name = "จอยเซิฟเกาะลับเกิด | โอกาสเจอ 30%",
+    Name = "หาเกาะลับ | เปลี่ยนเซิฟ",
     Default = false,
-    Flag = "",
+    Flag = "Auto Mirrage Island",
     Save = true,
     Callback = function(Value)
         _G.Hop =  Value
@@ -4370,7 +4418,7 @@ IQ:AddToggle({
 })
 
 local Section = S:AddSection({
-    Name = "เลือก สถิติ ที่จะอัพ"
+    Name = "เลือกค่าพลัง"
 })
 
 spawn(function()
@@ -4399,30 +4447,30 @@ spawn(function()
     end
 end)
 
-Chest = S:AddLabel("กล่อง")
+Chest = S:AddLabel("Chest")
 
-Fruit = S:AddLabel("ผลปีศาจ")
+Fruit = S:AddLabel("Fruit")
 
-  local Pointstat = S:AddLabel("จำนวน")
+  local Pointstat = S:AddLabel("Stat Points")
     
     spawn(function()
         while wait() do
             pcall(function()
-                Pointstat:Set("คะแนนสถิติ | "..tostring(game:GetService("Players")["LocalPlayer"].Data.Points.Value))
+                Pointstat:Set("Stat Points : "..tostring(game:GetService("Players")["LocalPlayer"].Data.Points.Value))
             end)
         end
     end)
     
-local Melee = S:AddLabel("หมัด | ")
-local Defense = S:AddLabel("เลือด | ")
-local Sword = S:AddLabel("ดาบ | ")
-local Gun = S:AddLabel("ปืน | ")
-local Fruit = S:AddLabel("ผลปีศาจ | ")
+local Melee = S:AddLabel("Melee : ")
+local Defense = S:AddLabel("Defense : ")
+local Sword = S:AddLabel("Sword : ")
+local Gun = S:AddLabel("Gun : ")
+local Fruit = S:AddLabel("Fruit : ")
 
     spawn(function()
         while wait() do
             pcall(function()
-                Melee:Set("หมัด : "..game.Players.localPlayer.Data.Stats.Melee.Level.Value)
+                Melee:Set("Melee : "..game.Players.localPlayer.Data.Stats.Melee.Level.Value)
             end)
         end
     end)
@@ -4430,7 +4478,7 @@ local Fruit = S:AddLabel("ผลปีศาจ | ")
     spawn(function()
         while wait() do
             pcall(function()
-                Defense:Set("เลือด : "..game.Players.localPlayer.Data.Stats.Defense.Level.Value)
+                Defense:Set("Defense : "..game.Players.localPlayer.Data.Stats.Defense.Level.Value)
             end)
         end
     end)
@@ -4438,7 +4486,7 @@ local Fruit = S:AddLabel("ผลปีศาจ | ")
     spawn(function()
         while wait() do
             pcall(function()
-                Sword:Set("ดาบ : "..game.Players.localPlayer.Data.Stats.Sword.Level.Value)
+                Sword:Set("Sword : "..game.Players.localPlayer.Data.Stats.Sword.Level.Value)
             end)
         end
     end)
@@ -4446,7 +4494,7 @@ local Fruit = S:AddLabel("ผลปีศาจ | ")
     spawn(function()
         while wait() do
             pcall(function()
-                Gun:Set("ปืน : "..game.Players.localPlayer.Data.Stats.Gun.Level.Value)
+                Gun:Set("Gun : "..game.Players.localPlayer.Data.Stats.Gun.Level.Value)
             end)
         end
     end)
@@ -4454,15 +4502,15 @@ local Fruit = S:AddLabel("ผลปีศาจ | ")
     spawn(function()
         while wait() do
             pcall(function()
-                Fruit:Set("ผลปีศาจ : "..game.Players.localPlayer.Data.Stats["Demon Fruit"].Level.Value)
+                Fruit:Set("Fruit : "..game.Players.localPlayer.Data.Stats["Demon Fruit"].Level.Value)
             end)
         end
     end)
 
 S:AddToggle({
-    Name = "ออโต้ อัพสเตตัสไก่ตัน",
+    Name = "ไก่ตัน",
     Default = false,
-    Flag = "",
+    Flag = "Auto Kaitun",
     Save = true,
     Callback = function(Value)
         _G.Auto_Stats_Kaitun = Value
@@ -4472,7 +4520,7 @@ S:AddToggle({
 S:AddToggle({
     Name = "หมัด",
     Default = false,
-    Flag = "",
+    Flag = "Auto Melee",
     Save = true,
     Callback = function(Value)
         melee = Value
@@ -4480,9 +4528,9 @@ S:AddToggle({
 })
 
 S:AddToggle({
-    Name = "เลือด",
+    Name = "พลังป้องกัน",
     Default = false,
-    Flag = "",
+    Flag = "Auto Defense",
     Save = true,
     Callback = function(Value)
         defense = Value
@@ -4492,7 +4540,7 @@ S:AddToggle({
 S:AddToggle({
     Name = "ดาบ",
     Default = false,
-    Flag = "",
+    Flag = "Auto Sword",
     Save = true,
     Callback = function(Value)
         sword = Value
@@ -4502,7 +4550,7 @@ S:AddToggle({
 S:AddToggle({
     Name = "ปืน",
     Default = false,
-    Flag = "",
+    Flag = "Auto Gun",
     Save = true,
     Callback = function(Value)
         gun = Value
@@ -4512,7 +4560,7 @@ S:AddToggle({
 S:AddToggle({
     Name = "ผลปีศาจ",
     Default = false,
-    Flag = "",
+    Flag = "Auto Fruit",
     Save = true,
     Callback = function(Value)
         demonfruit = Value
@@ -4536,13 +4584,13 @@ S:AddSlider({
 })
 
 local Section = E:AddSection({
-    Name = "มองของต่างๆ"
+    Name = "มองไมไอสาด"
 })
 
 E:AddToggle({
     Name = "มองผู้เล่น",
     Default = false,
-    Flag = "",
+    Flag = "ESP Players",
     Save = true,
     Callback = function(a)
         ESPPlayer = a
@@ -4598,7 +4646,7 @@ end
 E:AddToggle({
     Name = "มองผลปีศาจ",
     Default = false,
-    Flag = "",
+    Flag = "ESP Fruits",
     Save = true,
     Callback = function(b)
         DevilFruitESP = b
@@ -4665,7 +4713,7 @@ end)
 E:AddToggle({
     Name = "มองเกาะ",
     Default = false,
-    Flag = "",
+    Flag = "ESP Island",
     Save = true,
     Callback = function(Value)
         IslandESP = Value
@@ -4708,11 +4756,10 @@ function UpdateIslandESP()
     end
 end
 
-if World2 then
 E:AddToggle({
     Name = "มองดอกไม้",
     Default = false,
-    Flag = "",
+    Flag = "ESP Flower",
     Save = true,
     Callback = function(Value)
         FlowerESP = Value
@@ -4761,10 +4808,9 @@ function UpdateFlowerChams()
     end
 end
 
-if World2 then
-local TimeRaid = RA:AddLabel("กำลังลอดัน")
-if World2 then
-local checkisland = RA:AddLabel("ไม่พบเกาะลงดัน")
+local TimeRaid = RA:AddLabel("ลอดันอยู่อย่ารีบดิ")
+
+local checkisland = RA:AddLabel("ยังไม่มีดันไอ...")
 
 _G.SelectChip = selectraids or ""
     Raidslist = {}
@@ -4776,12 +4822,12 @@ _G.SelectChip = selectraids or ""
         table.insert(Raidslist,v)
     end
 
-    if World2 then
+
     RA:AddDropdown({
-        Name = "เลือกดัน",
+        Name = "เลือกชิป",
         Default = "",
         Options = Raidslist,
-        Flag = "",
+        Flag = "Select Chips",
         Save = true,
         Callback = function(Value)
             _G.SelectChip = Value
@@ -4789,25 +4835,23 @@ _G.SelectChip = selectraids or ""
     })
 
 
-if World2 then
+
 RA:AddButton({
-    Name = "ซื้อดัน",
+    Name = "ซื้อชิป",
     Callback = function()
           _G.AutoBuyChip = value
       end    
 })
 
-if World2 then
 RA:AddButton({
-    Name = "ซื้อดันที่เลือก",
+    Name = "ออโต้ ซื้อชิป",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("RaidsNpc","Select",_G.SelectChip)
       end    
 })
 
-if World2 then
 RA:AddToggle({
-    Name = "เริ่มดัน",
+    Name = "ออโต้ เริ่มดัน",
     Default = false,
     Flag = "Auto Start",
     Save = true,
@@ -4816,27 +4860,25 @@ RA:AddToggle({
     end    
 })
 
-if World2 then
+
 local Section = RA:AddSection({
-    Name = "ลงดัน"
+    Name = "ดันเจี้ยน"
 })
 
-if World2 then
 RA:AddToggle({
-    Name = "ลบมอนที่เกิดในดัน | ถ้ามีคนอยู่ในเกาะสคริปต์จะทำงานไม่เต็มที่",
+    Name = "ออโต้ ลบมอน | ถ้าลงดันจำเป็นต้องเปิด",
     Default = false,
-    Flag = "",
+    Flag = "Auto KillAura",
     Save = true,
     Callback = function(Value)
         _G.Kill_Aura = Value
     end    
 })
 
-    if World2 then
     RA:AddToggle({
-        Name = "ออโต้ เปลี่ยนเกาะ",
+        Name = "เปลี่ยนเกาะ | ถ้าลงดันจำเป็นต้องเปิด",
         Default = false,
-        Flag = "",
+        Flag = "Auto NextIsland",
         Save = true,
         Callback = function(Value)
             _G.Auto_Dungeon = Value
@@ -4844,36 +4886,32 @@ RA:AddToggle({
         end    
     })
 
-if World2 then
 RA:AddToggle({
     Name = "ออโต้ ซื้อผลตื่น",
     Default = false,
-    Flag = "",
+    Flag = "Auto Awakener",
     Save = true,
     Callback = function(Value)
         _G.Auto_Awakener = Value
     end    
 })
 
-if World2 then
 local Section = RA:AddSection({
-    Name = "บอส Law"
+    Name = " Law ไปโลก 2 ก่อนไอสาด"
 })
 
-if World2 then
 RA:AddToggle({
-    Name = "ออโต้ ซื้อ ดัน Law",
+    Name = "ออโต้ ซื้อชิป บอส Law",
     Default = false,
-    Flag = "",
+    Flag = "Auto Chips Law",
     Save = true,
     Callback = function(Value)
         _G.Auto_Buy_Law_Chip = Value
     end    
 })
 
-if World2 then
 RA:AddToggle({
-    Name = "เริ่มดัน Law",
+    Name = "เริ่ม บอส Law",
     Default = false,
     Flag = "Auto Start Raid Law",
     Save = true,
@@ -4882,11 +4920,10 @@ RA:AddToggle({
     end    
 })
 
-if World2 then
 RA:AddToggle({
     Name = "ออโต้ บอส Law",
     Default = false,
-    Flag = "",
+    Flag = "Auto Kill Law",
     Save = true,
     Callback = function(Value)
         _G.Auto_Kill_Law = Value
@@ -4895,13 +4932,13 @@ RA:AddToggle({
 })
 
 local Section = LC:AddSection({
-    Name = "ไปเกาะต่างๆ"
+    Name = "ไปที่ต่างๆ"
 })
 
 
 if World1 then
 LC:AddDropdown({
-    Name = "เลือกเกาะที่จะไป",
+    Name = "เลือกเกาะ",
     Default = "",
     Options = {"WindMill",
     "Marine",
@@ -4931,7 +4968,7 @@ end
 
 if World2 then
 LC:AddDropdown({
-    Name = "เลือกเกาะที่จะไป",
+    Name = "เลือกเกาะ",
     Default = "",
     Options = {"The Cafe",
     "Frist Spot",
@@ -4959,7 +4996,7 @@ end
 
 if World3 then
 LC:AddDropdown({
-    Name = "เลือกเกาะที่จะไป",
+    Name = "เลือกเกาะ",
     Default = "",
     Options = {"Mansion",
     "Port Town",
@@ -4973,7 +5010,7 @@ LC:AddDropdown({
     "Peanut Island",
     "Cake Island",
     "Cocoa Island",
-    "Tiki Outpost ",
+    "Tiki Outpost New",
     "Candy Island "},
     Flag = "Select Island",
     Save = true,
@@ -4984,7 +5021,7 @@ LC:AddDropdown({
 end
 
 LC:AddToggle({
-    Name = "เริ่มไปเกาะที่เลือกไว้",
+    Name = "ไปที่เกาะ",
     Default = false,
     Callback = function(Value)
         _G.TeleportIsland = Value
@@ -5097,7 +5134,7 @@ LC:AddToggle({
 })
 
 local Section = LC:AddSection({
-    Name = "ไปที่ NPC"
+    Name = " NPC"
 })
 
 NPC1 = {
@@ -5186,7 +5223,7 @@ end
     end
 
         LC:AddToggle({
-            Name = "ไปหา NPC ที่เลือกไว้",
+            Name = "ไปที่ NPC",
             Default = false,
             Callback = function(Value)
                 _G.TeleportNPC = Value
@@ -5280,13 +5317,13 @@ end
         })
 
         local Section = LC:AddSection({
-            Name = "สัตว์ทะเล"
+            Name = "ไปที่สัตว์ทะเล"
         })
 
 LC:AddToggle({
     Name = "ไปที่สัตว์ทะเล",
     Default = false,
-    Flag = "",
+    Flag = "Teleport to Seabeast",
     Save = true,
     Callback = function(Value)
         for i,v in pairs(game:GetService("Workspace").SeaBeasts:GetChildren()) do
@@ -5297,7 +5334,6 @@ LC:AddToggle({
     end    
 })
 
-if World3 then
 local Section = LC:AddSection({
     Name = "เกาะลับ"
 })
@@ -5310,11 +5346,10 @@ LC:AddButton({
       end    
 })
 
-if World3 then
 LC:AddToggle({
     Name = "ไปที่เกาะลับ",
     Default = false,
-    Flag = "",
+    Flag = "Teleport to Mirage Island",
     Save = true,
     Callback = function(Value)
         _G.AutoMysticIsland = Value
@@ -5384,7 +5419,7 @@ LC:AddToggle({
 
 
 LC:AddToggle({
-    Name = "ออโต้ ฆ่า ผู้เล่น",
+    Name = "ออโต้ ฆ่าผู้เล่น",
     Default = false,
     Callback = function(Value)
         _G.Auto_Kill_Ply = Value
@@ -5397,7 +5432,7 @@ local Section = LC:AddSection({
 })
 
 LC:AddToggle({
-    Name = "อิมบอท | 60%",
+    Name = "อิมบอท",
     Default = false,
     Callback = function(Value)
         _G.Aimbot_Gun = Value
@@ -5411,7 +5446,7 @@ LC:AddToggle({
 LC:AddToggle({
     Name = "อิมบอทสกิวรอบๆ",
     Default = false,
-    Flag = "",
+    Flag = "Aimbot Skill Nearest",
     Save = true,
     Callback = function(Value)
         AimSkillNearest = Value
@@ -5419,25 +5454,25 @@ LC:AddToggle({
 })
 
 local Section = Wld:AddSection({
-    Name = "เปลี่ยนโลก"
+    Name = "ท่องเที่ยว"
 })
 
 Wld:AddButton({
-    Name = "โลก 1",
+    Name = "ท่องเที่ยวทะเลที่  1",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelMain")
       end    
 })
 
 Wld:AddButton({
-    Name = "โลก 2",
+    Name = "ท่องเที่ยวทะเลที่ 2",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelDressrosa")
       end    
 })
 
 Wld:AddButton({
-    Name = "โลก 3",
+    Name = "ท่องเที่ยวทะเลที่ 3",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelZou")
       end    
@@ -5447,7 +5482,7 @@ local Section = SV:AddSection({
     Name = "พระจันทร์"
 })
 
-local FM = SV:AddLabel("เวลา เซิฟเวอร์ : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7())
+local FM = SV:AddLabel("Server Time : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7())
 
 spawn(function()
         while wait() do
@@ -5459,7 +5494,7 @@ spawn(function()
                 Name = "เควสต์เผ่า V4"
             })
 
-            local bL = SV:AddLabel("เควสต์เผ่า V4 : " .. tostring(CheckAcientOneStatus()))
+            local bL = SV:AddLabel("เควสต์เผ่า V4: " .. tostring(CheckAcientOneStatus()))
 
 local Section = SV:AddSection({
     Name = "Elite"
@@ -5489,7 +5524,7 @@ local Elite_Hunter_Status = SV:AddLabel("Only Third Sea")
         spawn(function()
             pcall(function()
                 while wait() do
-                    EliteProgress:Set("Elite ที่คุณกำจัดไป : "..game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("EliteHunter","Progress"))
+                    EliteProgress:Set("ฆ่า Elite ไปแล้ว: "..game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("EliteHunter","Progress"))
                 end
             end)
         end)
@@ -5511,13 +5546,13 @@ local Elite_Hunter_Status = SV:AddLabel("Only Third Sea")
     end)
 end
 
-Mirragecheck = SV:AddLabel("Only Third Sea")
+Mirragecheck = SV:AddLabel("โลก 3 อย่างเดียว")
 
 local Section = SV:AddSection({
     Name = "คาตาคุริ"
 })
 
-local MobKilled = SV:AddLabel("Only Third Sea")
+local MobKilled = SV:AddLabel("โลก 3 อย่างเดียว")
 
 spawn(function()
     while wait() do
@@ -5529,31 +5564,31 @@ spawn(function()
             elseif string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 86 then
                 MobKilled:Set("Defeat : "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,39))
             else
-                MobKilled:Set("คาตาคุริ V1 | 🟢")
+                MobKilled:Set("บอสคาตาคุริ V1 | 🟢")
             end
         end)
     end
 end)
 
 local Section = SV:AddSection({
-    Name = "หาเซิฟ | เกาะลับ | ฟูมูล"
+    Name = "Hop Find"
 })
 
 SV:AddToggle({
-	Name = "เซิฟพระจันทร์ 4/5 หรือ 5/5 | เบต้า",
+	Name = "หาเซิฟพระจันทร์ | 50%",
 	Default = false,
     Flag = "FindFM",
-    Save = false,
+    Save = true,
 	Callback = function(Value)
 		_G.Hopfindmoon = Value
 	end    
 })
 
 SV:AddToggle({
-	Name = "หาเซิฟเกาะลับเกิด | 30% เจอ",
+	Name = "หาเซิฟเกาะลับเกิด | 40%",
 	Default = false,
     Flag = "FindMrg",
-    Save = false,
+    Save = true,
 	Callback = function(Value)
 		_G.Hopfinddao = Value
 	end    
@@ -5561,11 +5596,11 @@ SV:AddToggle({
 
 
 local Section = SV:AddSection({
-    Name = "เซิฟเวอร์อื่นๆ"
+    Name = "เกี่ยวกับเซิฟเวอร์"
 })
 
         SV:AddTextbox({
-            Name = "วางไอดีเซิฟเวอร์",
+            Name = "วางไอดี",
             Default = "",
             TextDisappear = true,
             Callback = function(Value)
@@ -5604,7 +5639,7 @@ local Section = SV:AddSection({
         })
 
         SV:AddButton({
-            Name = "จอยเซิฟเวอร์คนน้อย",
+            Name = "เข้าร่วมเซิฟคนน้อย | เบต้า",
             Callback = function()
                 _G.AutoRejoin = false
                 getgenv().AutoTeleport = true
@@ -5664,7 +5699,7 @@ D:AddButton({
 D:AddToggle({
     Name = "ออโต้ สุ่มผลปีศาจ",
     Default = false,
-    Flag = "",
+    Flag = "Auto Random Fruits",
     Save = true,
     Callback = function(Value)
         _G.Random_Auto = Value
@@ -5720,9 +5755,9 @@ FruitList = {
 }
 
 D:AddToggle({
-    Name = "ออโต้ เก็บผลเข้ากระเป๋า",
+    Name = "ออโต้ เก็บผลปีศาจเข้ากระเป๋า",
     Default = false,
-    Flag = "",
+    Flag = "Auto Store Fruits",
     Save = true,
     Callback = function(Value)
         _G.AutoStoreFruit = Value
@@ -5761,7 +5796,7 @@ end
 D:AddToggle({
     Name = "ออโต้ เก็บผลปีศาจ",
     Default = false,
-    Flag = "",
+    Flag = "Teleport To Fruit Spawn",
     Save = true,
     Callback = function(Value)
         _G.Tweenfruit = Value
@@ -5781,9 +5816,9 @@ spawn(function()
 end)
 
 D:AddToggle({
-    Name = "ออโต้ วางผลที่มีแล้ว",
+    Name = "ออโต้ วางผลปีศาจ",
     Default = false,
-    Flag = "",
+    Flag = "Auto Drop Fruit",
     Save = true,
     Callback = function(Value)
         _G.DropFruit = Value
@@ -5821,9 +5856,9 @@ spawn(function()
 end)
 
 D:AddToggle({
-    Name = "ดึงผลทั้งหมด | 50% โดนเตะ",
+    Name = "ดึงผลปีศาจ | 50% โดนเตะ",
     Default = false,
-    Flag = "",
+    Flag = "Bring All Fruit | 75% Kick",
     Save = true,
     Callback = function(Value)
         _G.BringFruitBF = Value
@@ -5847,9 +5882,8 @@ local Section = R:AddSection({
 	Name = "เผ่า V2 - V3"
 })
 
-if World2 then
 R:AddToggle({
-	Name = "ออโต้ ทำเผ่า | Sea Only | V2 - V3 ",
+	Name = "ออโต้ ทำเผ่า | V2 - V3 ",
 	Default = false,
     Flag = "Auto Race",
     Save = true,
@@ -5858,16 +5892,14 @@ R:AddToggle({
 	end    
 })
 
-if World3 then
 local Section = R:AddSection({
-	Name = "ดึงคันโยก"
+	Name = "เผ่า V4"
 })
 
-if World3 then
 AutoPullLever = R:AddToggle({
-    Name = "ออโต้ ดึงคันโยก ",
+    Name = "ออโต้ดึงคันโยก | เบต้า",
     Default = false,
-    Flag = " ",
+    Flag = "Auto Pull Lever",
     Save = true,
     Callback = function(Value)
         _G.AutoPullLever = Value
@@ -5875,11 +5907,51 @@ AutoPullLever = R:AddToggle({
     end    
 })
 
-if World3 then
-MoveCamTooMoonToggle = R:AddToggle({
-    Name = "ออโต้ มองพระจันทร์",
+R:AddToggle({
+    Name = "ออโต้ ใช้สกิวเผ่า V3",
     Default = false,
-    Flag = "",
+    Flag = "Auto Turn On Race v3",
+    Save = true,
+    Callback = function(Value)
+        _G.V3 = Value
+    end    
+})
+spawn(function()
+    while wait() do
+        pcall(function()
+            if _G.V3 then
+                game:GetService("VirtualInputManager"):SendKeyEvent(true,"T",false,game)
+                wait(0.1)
+                game:GetService("VirtualInputManager"):SendKeyEvent(false,"T",false,game)
+            end
+        end)
+    end
+end)
+R:AddToggle({
+    Name = "ออโต้ ใช้สกิวเผ่า V4",
+    Default = false,
+    Flag = "Auto Turn On Race v4",
+    Save = true,
+    Callback = function(Value)
+        _G.V4 = Value
+    end    
+})
+spawn(function()
+    while wait() do
+        pcall(function()
+            if _G.V4 then
+                game:GetService("VirtualInputManager"):SendKeyEvent(true,"Y",false,game)
+                wait(0.1)
+                game:GetService("VirtualInputManager"):SendKeyEvent(false,"Y",false,game)
+            end
+        end)
+    end
+end)
+
+MoveCamTooMoonToggle = R:AddToggle({
+    Name = "มองพระจันทร์",
+    Default = false,
+    Flag = "Move Cam to Moon",
     Save = true,
     Callback = function(Value)
         _G.AutoDooHee = Value
@@ -5897,25 +5969,22 @@ spawn(function()
     end
 end)
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่เกียร์",
+    Name = "ออโต้ เก็บเฟือง",
     Callback = function()
         _G.TweenMGear = Value
         StopTween(_G.TweenMGear)	
       end    
 })
 
-if World3 then
 local Section = R:AddSection({
 	Name = "เผ่า V4"
 })
 
-if World3 then
 R:AddToggle({
     Name = "ออโต้ ซื้อเกียร์",
     Default = false,
-    Flag = "",
+    Flag = "Auto Buy Gear",
     Save = true,
     Callback = function(Value)
         _G.Auto_Farm_Bone4 = Value
@@ -5941,11 +6010,10 @@ end
 end)  
 end)
 
-if World3 then
 R:AddToggle({
-    Name = "ออโต้ แก้ติดเควส",
+    Name = "ออโต้ แก้ติดเควสต์",
     Default = false,
-    Flag = "",
+    Flag = "Auto Train Race",
     Save = true,
     Callback = function(Value)
     _G.AutoRace = Value
@@ -5955,38 +6023,33 @@ R:AddToggle({
     end    
 })
 
-if World3 then
 local Section = R:AddSection({
-	Name = "วิหารแห่งกาลเวลา"
+	Name = "ห้องแห่งการเวลา"
 })
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่ ยอดต้นไม้ใหญ่",
+    Name = "ไปที่บนต้นไม้",
     Callback = function()
         TweenTempleLegit()
       end    
 })
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่ วิหารแห่งกาลเวลา",
+    Name = "ไปที่ห้องแห่งการเวลา",
     Callback = function()
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
       end    
 })
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่ ดึงคันโยก",
+    Name = "ไปที่ดึงคันโยก",
     Callback = function()
         PullLever()
       end    
 })
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่ รับเควสต์",
+    Name = "ไปที่จ่ายเควสต์",
     Callback = function()
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
@@ -5995,9 +6058,8 @@ R:AddButton({
       end    
 })
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่ อัพเฟือง",
+    Name = "ไปที่อัพเฟือง",
     Callback = function()
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
@@ -6006,9 +6068,8 @@ R:AddButton({
       end    
 })
 
-if World3 then
 R:AddButton({
-    Name = "ไปที่ ประตูเผ่า",
+    Name = "ไปที่ประตูเผ่า",
     Callback = function()
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
   wait(.1)
@@ -6047,16 +6108,14 @@ R:AddButton({
             end
 })
 
-if World3 then
 local Section = R:AddSection({
-    Name = "การทดลองอื่นๆ"
+    Name = "การทดลองอื่น ๆ"
 })
 
-if World3 then
 R:AddToggle({
-    Name = "ออโต้ ผ่านด่านเผ่า",
+    Name = "ออโต้ ผ่านด่าน",
     Default = false,
-    Flag = "",
+    Flag = "Auto Complete Trials",
     Save = true,
     Callback = function(Value)
         _G.AutoQuestRace = Value
@@ -6064,11 +6123,10 @@ R:AddToggle({
     end    
 })
 
-if World3 then
 R:AddToggle({
-    Name = "ออโต้ ชนะผู้เล่นทั้งหมด",
+    Name = "ออโต้ กำจัดผู้เล่น | จำเป็นต้องเปิดตอนผ่านด่านเผ่า V4",
     Default = false,
-    Flag = "",
+    Flag = "KillTrials",
     Save = true,
     Callback = function(Value)
         KillPlayer = Value
@@ -6078,7 +6136,7 @@ R:AddToggle({
 })
 
 local Section = SH:AddSection({
-    Name = "หมัด"
+    Name = "ซื้อของ"
 })
 
 SH:AddButton({
@@ -6111,7 +6169,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "หมัดซุปเปอร์ฮิวแมน V1",
+    Name = "ซุปเปอร์ฮิวแมน V1",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySuperhuman")
       end    
@@ -6155,25 +6213,25 @@ SH:AddButton({
 })
 
 local Section = SH:AddSection({
-    Name = "ฮาคิ"
+    Name = "ฮาคิและอื่นๆ"
 })
 
 SH:AddButton({
-    Name = "ซื้อ ฮาคิ",
+    Name = "ซื้อฮาคิเกาะ",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso")
       end    
 })
 
 SH:AddButton({
-    Name = "ซื้อ กระโดด",
+    Name = "ซื้อเดินชมจันทร์",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Geppo")
       end    
 })
 
 SH:AddButton({
-    Name = "ซื้อ วาป",
+    Name = "ซื้อสกิววาป",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Soru")
       end    
@@ -6193,7 +6251,7 @@ local Section = SH:AddSection({
 })
 
 SH:AddButton({
-    Name = "ซื้อเผ่า กูล",
+    Name = "ซื้อ เผ่ากูล",
     Callback = function()
         local a = {
             [1] = "Ectoplasm",
@@ -6211,7 +6269,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "ซื้อเผ่า ไซบอร์ก",
+    Name = "ซื้อ เผ่าไซบอร์ก | 2500 เงินม่วง",
     Callback = function()
         local a = {
             [1] = "CyborgTrainer",
@@ -6289,7 +6347,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "กระบองสายฟ้า V2 [ 5,000 เงินม่วง ]",
+    Name = "Pole v.2 [ 5,000 Fragments ]",
     Callback = function()
         game.ReplicatedStorage.Remotes.CommF_:InvokeServer("ThunderGodTalk")
       end    
@@ -6346,7 +6404,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "คาบูชา | 1,500 เงินม่วง",
+    Name = "คาบูชา [ 1,500 Fragments]",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Slingshot","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Slingshot","2")
@@ -6354,7 +6412,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "ปืนไรเฟิลประหลาด | 250 Ectoplasm ",
+    Name = "ปืนไรเฟิลประหลาด | 250 Ectoplasm",
     Callback = function()
         local A_1 = "Ectoplasm"
         local A_2 = "Buy"
@@ -6370,7 +6428,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "รีสเตตัส | 2,500 เงินม่วง",
+    Name = "รีค่าพลัง | 2500 เงินม่วง",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","2")
@@ -6378,7 +6436,7 @@ SH:AddButton({
 })
 
 SH:AddButton({
-    Name = "สุ่มเผ่า | 3,000 เงินม่วง",
+    Name = "Race Random[3,000 fragment]",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","2")
@@ -6386,7 +6444,7 @@ SH:AddButton({
 })
 
 local Section = C:AddSection({
-    Name = "เปิด เมนู"
+    Name = "เปิดเมนู"
 })
 
 C:AddButton({
@@ -6420,7 +6478,7 @@ C:AddButton({
 })
 
 C:AddToggle({
-    Name = "ซื้อสีฮาคิ",
+    Name = "ซื้อสีฮาคิ | สุ่ม",
     Default = false,
     Callback = function(Value)
         _G.AutoBuyEnchancementColour = Value
@@ -6447,7 +6505,7 @@ local Section = C:AddSection({
 })
 
 C:AddToggle({
-	Name = "Lock Level",
+	Name = "แล็คเลเวล",
 	Default = false,
     Flag = "Lock Level",
     Save = true,
@@ -6476,7 +6534,7 @@ spawn(function()
     while wait(.1) do
         if LockLevel then
             if game.Players.localPlayer.Data.Level.Value >= LockLevelValue then
-                game.Players.localPlayer:Kick("ผู้เล่นได้ใช้การโกงคุณถูกแบน")
+                game.Players.localPlayer:Kick("ถูกแบนถาวร")
             end
         end
     end
@@ -6521,11 +6579,11 @@ spawn(function()
     end)
 
     local Section = C:AddSection({
-        Name = "แฮ็ค"
+        Name = "ผู้เล่น"
     })
 
     C:AddToggle({
-        Name = "เดินบนน้ำ",
+        Name = "เดินบนนํ้า",
         Default = true,
         Callback = function(Value)
             _G.WalkWater = Value
@@ -6548,7 +6606,7 @@ spawn(function()
     })
 
     C:AddToggle({
-        Name = "วาปไม่จำกัด",
+        Name = "สกิววาปไม่จำกัด",
         Default = false,
         Callback = function(Value)
             getgenv().InfSoru = Value
@@ -6576,8 +6634,28 @@ spawn(function()
         end
     end)
 
+    C:AddToggle({
+        Name = "เดินทะลุ",
+        Default = false,
+        Callback = function(Value)
+            _G.NOCLIP = Value
+        end    
+    })
+    spawn(function()
+        while wait() do
+            if sethiddenproperty then
+                sethiddenproperty(game.Players.LocalPlayer,"SimulationRadius",100)
+            end
+            if setscriptable then
+                setscriptable(game.Players.LocalPlayer, "SimulationRadius", true)
+                game.Players.LocalPlayer.SimulationRadius = math.huge * math.huge, math.huge * math.huge * 0 / 0 * 0 / 0 * 0 / 0 * 0 / 0 * 0 / 0
+            end
+        end
+    end)
+
+
 C:AddButton({
-    Name = "กำจัดลาวา",
+    Name = "ลบลาวา",
     Callback = function()
         for i,v in pairs(game.Workspace:GetDescendants()) do
             if v.Name == "Lava" then   
@@ -6591,6 +6669,35 @@ C:AddButton({
         end
       end    
 })
+
+C:AddToggle({
+    Name = "กระโดดไม่จำกัด | พึ่งหัดทำ",
+    Default = false,
+    Callback = function(Value)
+        getgenv().InfGeppo = Value
+    end    
+})
+spawn(function()
+    while wait() do
+        pcall(function()
+            if getgenv().InfGeppo then
+                for i,v in next, getgc() do
+                    if game:GetService("Players").LocalPlayer.Character.Geppo then
+                        if typeof(v) == "function" and getfenv(v).script == game:GetService("Players").LocalPlayer.Character.Geppo then
+                            for i2,v2 in next, getupvalues(v) do
+                                if tostring(i2) == "9" then
+                                    repeat wait(.1)
+                                        setupvalue(v,i2,0)
+                                    until not getgenv().InfGeppo or game:GetService("Players").LocalPlayer.Character.Humanoid.Health <= 0 
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end)
+    end
+end)
 
 spawn(function()
     while wait() do
@@ -8315,7 +8422,7 @@ pcall(function()
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
                     Name = "SHIN X HUB (Noitification)",
-                    Content = "[EN] : Please cancel the farrm level quest (if any)",
+                    Content = "[TH] : กรุณายกเลิกภารกิจระดับฟาร์ม (ถ้ามี)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
                 })
@@ -8489,8 +8596,8 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "HUNTER X HUB BOT",
-                        Content = "!!You Are Max Point!!",
+                        Name = "SHIN X HUB BOT",
+                        Content = "!!แม็กซ์พอยท์!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
                     })
@@ -8639,7 +8746,7 @@ spawn(function()
             wait(2.0)
             OrionLib:MakeNotification({
                 Name = "SHIN X HUB",
-                Content = "You not have beli or fragment!",
+                Content = "คุณต้องการ เงิน ม่วง | 5000 | เงิน | 2500000",
                 Image = "rbxassetid://8192162908",
                 Time = 5
             })
@@ -11298,7 +11405,7 @@ spawn(function()
 
 OrionLib:MakeNotification({
         Name = "SHIN X HUB",
-        Content = "Loading script complete!, You can now enable the function!",
+        Content = "โหลดสคริปต์เสร็จเรียบร้อยแล้ว! ตอนนี้คุณสามารถเปิดใช้งานฟังก์ชั่นได้แล้ว!",
         Image = "rbxassetid://8192162908",
         Time = 5
     })
@@ -11320,7 +11427,7 @@ spawn(function()
         if _G.Remove_Effect then
             for i, v in pairs(game:GetService("ReplicatedStorage").Effect.Container:GetChildren()) do
                 if v.Name == "Death" then
-                    v:Destroy() 
+                    v:Destroy()
                 end
             end
         end
@@ -11331,7 +11438,7 @@ OrionLib:Init()
 
 OrionLib:MakeNotification({
     Name = "SHIN X HUB",
-    Content = "Loading Config Complete!!",
+    Content = "กำลังโหลดการกำหนดค่าเสร็จสมบูรณ์!!",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
