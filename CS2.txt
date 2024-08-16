@@ -6534,7 +6534,7 @@ spawn(function()
     while wait(.1) do
         if LockLevel then
             if game.Players.localPlayer.Data.Level.Value >= LockLevelValue then
-                game.Players.localPlayer:Kick("ถูกแบนถาวร")
+                game.Players.localPlayer:Kick("คุณเปิดแล็คเลเวล")
             end
         end
     end
