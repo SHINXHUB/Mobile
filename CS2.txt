@@ -5,7 +5,7 @@ elseif game.PlaceId == 4442272183 then
 elseif game.PlaceId == 7449423635 then
     World3 = true
 else
-    game:GetService("Players").LocalPlayer:Kick("☻ Do not Support, Please wait...")
+    game:GetService("Players").LocalPlayer:Kick("ไม่รองรับ...")
 end
 
 function CheckQuest() 
@@ -2886,7 +2886,7 @@ local Section = M:AddSection({
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
 M:AddDropdown({
-    Name = "Select Weapon",
+    Name = "เลือกอาวุธ",
     Default = "",
     Options = WeaponList,
     Flag = "Select Weapon",
@@ -2937,11 +2937,11 @@ task.spawn(function()
 
 if World2 and World1 then
     local Section = M:AddSection({
-        Name = "BOOTS"
+        Name = "BOOTS ทำภาพกาก"
     })
 
     M:AddButton({
-        Name = "BOOST FPS",
+        Name = "BOOST FPS ทำภาพกาก",
         Callback = function()
             pcall(function()
                 game:GetService("Lighting").FantasySky:Destroy()
@@ -2993,7 +2993,7 @@ if World2 and World1 then
 end
 
     local Section = M:AddSection({
-        Name = "Other Farm"
+        Name = "ฟาร์มอื่นๆ"
     })
 
     
@@ -3030,7 +3030,7 @@ end
     
     
     M:AddButton({
-        Name = "Redeem all code",
+        Name = "ใส่โค้ด",
         Callback = function()
             function RedeemCode(value)
                 game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
@@ -3042,13 +3042,13 @@ end
     })
 
     local Section = M:AddSection({
-        Name = "Auto Farm Level"
+        Name = "เลเวล และ อื่นๆ"
     })
 
 
 
 ToggleFarm = M:AddToggle({
-    Name = "Auto Farm",
+    Name = "ออโต้ ฟาร์มเลเวล",
     Default = false,
     Flag = "LevelFarm",
     Save = true,
@@ -3059,13 +3059,13 @@ ToggleFarm = M:AddToggle({
 })
 
 local Section = M:AddSection({
-    Name = "Mastery Menu"
+    Name = "ความเชี่ยวชาญ"
 })
 
 
 
 M:AddToggle({
-    Name = "Auto Farm BF Mastery",
+    Name = "ออโต้ ความเชี่ยวชาญผลปีศาจ",
     Default = false,
     Flag = "Mastery",
     Save = true,
@@ -3079,7 +3079,7 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Auto Farm Gun Mastery",
+    Name = "ออโต้ ความเชี่ยวชาญปืน",
     Default = false,
     Flag = "Gun Mastery",
     Save = true,
@@ -3090,7 +3090,7 @@ M:AddToggle({
 })
 
     M:AddSlider({
-        Name = "Health Mob",
+        Name = "เลือดมอน",
         Min = 0,
         Max = 100,
         Default = 25,
@@ -3105,7 +3105,7 @@ M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "Skill Z",
+        Name = "สกิว Z",
         Default = false,
         Flag = "Skill Z",
         Save = true,
@@ -3115,7 +3115,7 @@ M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "Skill! X",
+        Name = "สกิว X",
         Default = false,
         Default = false,
         Flag = "Skill X",
@@ -3127,7 +3127,7 @@ M:AddToggle({
 
 
     M:AddToggle({
-        Name = "Skill C",
+        Name = "สกิว C",
         Default = false,
         Default = false,
         Flag = "Skill C",
@@ -3139,7 +3139,7 @@ M:AddToggle({
 
 
     M:AddToggle({
-        Name = "Skill V",
+        Name = "สกิว V",
         Default = false,
         Default = false,
         Flag = "Skill V",
@@ -3150,7 +3150,7 @@ M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "Skill F",
+        Name = "สกิว F",
         Default = false,
         Default = false,
         Flag = "Skill F",
@@ -3161,11 +3161,11 @@ M:AddToggle({
     })
 
     local Section = M:AddSection({
-        Name = "Bring Mob"
+        Name = "รวมมอน"
     })
 
 M:AddToggle({
-    Name = "Bring Mobs[Fix]",
+    Name = "รวมมอน",
     Default = true,
     Flag = "Bring Mobs",
     Save = false,
@@ -3203,11 +3203,11 @@ spawn(function()
 end)
 
 local Section = M:AddSection({
-    Name = "FastAttack :"
+    Name = "ความเร็จโจมตี"
 })
 
 M:AddToggle({
-    Name = "FastAttack",
+    Name = "ความเร็วโจมตีทั่วไป",
     Default = true,
     Flag = "FastAttack",
     Save = false,
@@ -3250,7 +3250,7 @@ end)
 
 local AttackList = {"0", "0.1", "0.175", "0.2", "0.25", "0.3", "0.35", "0.4", "0.45", "0.5", "0.55", "0.6", "0.65", "0.7", "0.75", "0.8", "0.85", "0.9", "0.95", "0.1"}
 M:AddDropdown({
-	Name = "Attack Time",
+	Name = "เวลาการโจมตี",
 	Default = "0.5",
 	Options = AttackList,
     Flag = "FastAttack Delay",
@@ -3310,7 +3310,7 @@ spawn(function()
 end)
 
 M:AddToggle({
-    Name = "Fast Attack",
+    Name = "ความเร็วโจมตีแบบคอมโบ",
     Default = true,
     Flag = "FastAttack",
     Save = true,
@@ -3343,11 +3343,11 @@ spawn(function()
     end)
 end) 
 local Section = M:AddSection({
-    Name = "Bypass Teleport"
+    Name = "บายพาส บิน"
 })
 
 M:AddToggle({
-    Name = "Bypass TP[BETA]",
+    Name = "บายพาส บิน",
     Default = false,
     Flag = "Bypass TP",
     Save = true,
@@ -3358,12 +3358,12 @@ M:AddToggle({
 
 
 local Section = M:AddSection({
-    Name = "Distance Mobs"
+    Name = " ละยะการฟาร์ม"
 })
 
 PosY = 30
 M:AddSlider({
-    Name = "Distance Mob",
+    Name = "ละยะมอน",
     Min = 0,
     Max = 65,
     Default = PosY,
@@ -3379,11 +3379,11 @@ M:AddSlider({
 })
 
 local Section = M:AddSection({
-    Name = "Farm Fast : Lv 10 => 120"
+    Name = "ฟาร์มเร็ว Lv 10 => 120"
 })
 
 Farmfasttoggle = M:AddToggle({
-    Name = "Auto Farm Fast",
+    Name = "ออโต้ มอนเกาะลอยฟ้า",
     Default = false,
     Flag = "Farm Fast",
     Save = true,
@@ -3394,13 +3394,13 @@ Farmfasttoggle = M:AddToggle({
 })
 
 local Section = M:AddSection({
-    Name = "Kaitun dỏm"
+    Name = "ไก่ตันฟรี"
 })
 
 
 
 M:AddToggle({
-    Name = "Kaitun[Ko có kill players]",
+    Name = "ไก่ตัน | ของฟรี",
     Default = false,
     Flag = "Kaitun",
     Save = true,
@@ -3424,7 +3424,7 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Auto Click[Kick]",
+    Name = "ออโต้ คลิ๊ก | โดนเตะแน่มึงอะ",
     Default = false,
     Flag = "Auto Click",
     Save = true,
@@ -3460,12 +3460,12 @@ spawn(function()
 end)
 
    local Section = M:AddSection({
-    Name = "Mob & Boss Farm"
+    Name = "มอนละบอส"
 })
 
 if World1 then
     M:AddDropdown({
-        Name = "Select Mobs",
+        Name = "เลือกมอม",
         Default = "",
         Options = {"Bandit","Monkey","Gorilla","Pirate","Brute","Desert Bandit","Desert Officer","Snow Bandit","Snowman","Chief Petty Officer","Sky Bandit","Dark Master","Prisoner", "Dangerous Prisoner","Toga Warrior","Gladiator","Military Soldier","Military Spy","Fishman Warrior","Fishman Commando","God's Guard","Shanda","Royal Squad","Royal Soldier","Galley Pirate ","Galley Captain"},
         Callback = function(Value)
@@ -3476,7 +3476,7 @@ if World1 then
     
     if World2 then
     M:AddDropdown({
-        Name = "Select Mobs",
+        Name = "เลือกมอน",
         Default = "",
         Options = {"Raider","Mercenary","Swan Pirate","Factory Staff","Marine Lieutenant","Marine Captain","Zombie","Vampire","Snow Trooper","Winter Warrior","Lab Subordinate","Horned Warrior","Magma Ninja","Lava Pirate","Ship Deckhand","Ship Engineer","Ship Steward","Ship Officer","Arctic Warrior","Snow Lurker","Sea Soldier","Water Fighter"},
         Callback = function(Value)
@@ -3487,7 +3487,7 @@ if World1 then
     
     if World3 then
     M:AddDropdown({
-        Name = "Select Mobs",
+        Name = "เลือกมอน",
         Default = "",
         Options = {"Pirate Millionaire","Dragon Crew Warrior","Dragon Crew Archer","Female Islander","Giant Islander","Marine Commodore","Marine Rear Admiral","Fishman Raider","Fishman Captain","Forest Pirate","Mythological Pirate","Jungle Pirate","Musketeer Pirate","Reborn Skeleton","Living Zombie","Demonic Soul","Posessed Mummy", "Peanut Scout", "Peanut President", "Ice Cream Chef", "Ice Cream Commander", "Cookie Crafter", "Cake Guard", "Baking Staff", "Head Baker", "Cocoa Warrior", "Chocolate Bar Battler", "Sweet Thief", "Candy Rebel", "Candy Pirate", "Snow Demon"},
         Callback = function(Value)
@@ -3497,7 +3497,7 @@ if World1 then
     end
     
     M:AddToggle({
-        Name = "Farm Mob",
+        Name = "ฟาร์มมอน",
         Default = false,
         Callback = function(Value)
             _G.AutoFarmSelectMonster = Value
@@ -3505,11 +3505,11 @@ if World1 then
     }) 
 
 local Section = M:AddSection({
-    Name = "Nearest Farm"
+    Name = "ฟาร์มมอนรอบๆ"
 })
 
 M:AddToggle({
-    Name = "Auto Farm Nearest",
+    Name = "ออโต้ ฟาร์ม มอนรอบๆ",
     Default = false,
     Flag = "Auto Farm Nearest",
     Save = true,
@@ -3520,11 +3520,11 @@ M:AddToggle({
 })
 
     local Section = M:AddSection({
-        Name = "Chest Farm"
+        Name = "กล่อง"
     })
 
 TweenChest = M:AddToggle({
-        Name = "Auto Chest [MUP]",
+        Name = "ออโต้ ฟาร์ม กล่อง | บิน",
         Default = false,
         Flag = "Auto Chest",
         Save = true,
@@ -3535,7 +3535,7 @@ TweenChest = M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "Auto Chest[Bypass]",
+        Name = "ออโต้ ฟาร์ม กล่อง | ไม่โดนเตะก็โดนรีเวล 30% ใช้ให้ระวัง",
         Default = false,
         Flag = "Auto Chest[Bypass]",
         Save = true,
@@ -3545,7 +3545,7 @@ TweenChest = M:AddToggle({
     })
 
 M:AddToggle({
-    Name = "Stop Only Dark Key or God's Chalice",
+    Name = "หยุดเมื่อได้ไอเท็ม",
     Default = false,
     Flag = "Stop Only Dark Key or God's Chalice",
     Save = true,
@@ -3566,7 +3566,7 @@ end
 end)
 
 local Section = M:AddSection({
-    Name = "Bone Menu"
+    Name = "โบน"
 })
 
 local Bone = M:AddLabel("Bone : ")
@@ -3580,7 +3580,7 @@ spawn(function()
 end)
 
 ToggleBone = M:AddToggle({
-    Name = "Auto Farm Bone",
+    Name = "ออโต้ ฟาร์ม โบน",
     Default = false,
     Flag = "Auto Farm Bone",
     Save = true,
@@ -3591,7 +3591,7 @@ ToggleBone = M:AddToggle({
 })
         
 ToggleRandom = M:AddToggle({
-        Name = "Auto Random Bone",
+        Name = "ออโต้ สุ่ม โบน",
         Default = false,
         Flag = "Auto Random Bone",
         Save = true,
@@ -3610,7 +3610,7 @@ ToggleRandom = M:AddToggle({
     end)
     
     local Section = M:AddSection({
-        Name = "Other Menu"
+        Name = "เมนูอื่นๆ"
     })
 
 local EliteProgress = M:AddLabel("")
@@ -3624,7 +3624,7 @@ local EliteProgress = M:AddLabel("")
     end)
 
     M:AddToggle({
-        Name = "Auto Elite",
+        Name = "ออโต้ Elite",
         Default = false,
         Flag = "Auto Elite",
         Save = true,
@@ -3636,7 +3636,7 @@ local EliteProgress = M:AddLabel("")
 
 
     M:AddToggle({
-        Name = "Auto Factory",
+        Name = "ออโต้ ตีโรงงาน",
         Default = false,
         Flag = "Auto Factory",
         Save = true,
@@ -3647,7 +3647,7 @@ local EliteProgress = M:AddLabel("")
     })
 
         M:AddToggle({
-            Name = "Raid Castle",
+            Name = "ออโต้ ตีโจรบุก",
             Default = false,
             Flag = "Auto Castle",
             Save = true,
@@ -3657,12 +3657,12 @@ local EliteProgress = M:AddLabel("")
             end    
         })
         local Section = M:AddSection({
-            Name = "Dough King Menu"
+            Name = "คาตาคุริ"
         })
         
 
         M:AddToggle({
-            Name = "Auto Katakuri",
+            Name = "ออโต้ คาตาคุริ",
             Default = false,
             Flag = "Auto Katakuri",
             Save = true,
@@ -3673,7 +3673,7 @@ local EliteProgress = M:AddLabel("")
         })    
         
         M:AddToggle({
-            Name = "Auto Spawn Katakuri",
+            Name = "ออโต้ เสกคาตาคุริ",
             Default = true,
             Callback = function(Value)
                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner",Value)
@@ -3681,7 +3681,7 @@ local EliteProgress = M:AddLabel("")
         })
         
         M:AddToggle({
-            Name = "Auto Katakuri v2",
+            Name = "ออโต้ คาตาคุริ v2",
             Default = false,
             Flag = "Auto Katakuri v2",
             Save = true,
@@ -3692,7 +3692,7 @@ local EliteProgress = M:AddLabel("")
         })
         
         M:AddToggle({
-            Name = "Auto Katakuri v2[HOP]",
+            Name = "ออโต้ คาตาคุริ V2 | เปลี่ยนเซิฟ",
             Default = false,
             Flag = "Auto Katakuri v2[HOP]",
             Save = true,
@@ -3702,17 +3702,17 @@ local EliteProgress = M:AddLabel("")
         })
 
 local Section = M:AddSection({
-    Name = "Boss"
+    Name = "บอส"
 })
 
 
 
     local Section = M:AddSection({
-        Name = "Observation Haki"
+        Name = "ฮาคิสังเกต"
     })
 
     M:AddToggle({
-        Name = "Auto Farm Observation Haki",
+        Name = "ออโต้ ฟาร์ม ฮาคิสังเกต",
         Default = false,
         Flag = "Auto Farm Observation Haki",
         Save = true,
@@ -3723,7 +3723,7 @@ local Section = M:AddSection({
     })
     
     M:AddToggle({
-        Name = "Auto Farm Observation Haki[HOP]",
+        Name = "ออโต้ฟาร์ม ฮาคิสังเกต | เปลี่ยนเซิฟ",
         Default = false,
         Flag = "Auto Farm Observation Haki[HOP]",
         Save = true,
@@ -3733,7 +3733,7 @@ local Section = M:AddSection({
     })
 
     local Section = M:AddSection({
-        Name = "Melee v2"
+        Name = "หมัด V2"
     })
     
     M:AddToggle({
@@ -3789,7 +3789,7 @@ local Section = M:AddSection({
     })
 
     ST:AddToggle({
-        Name = "Auto Haki",
+        Name = "ออโต้ เคน",
         Default = true,
         Callback = function(Value)
             _G.AUTOHAKI = Value
@@ -3809,7 +3809,7 @@ local Section = M:AddSection({
     end)
 
     ST:AddToggle({
-        Name = "Anti Afk",
+        Name = "แอนตี้ Afk",
         Default = true,
         Callback = function(Value)
             local vu = game:GetService("VirtualUser")
@@ -3824,7 +3824,7 @@ local Section = M:AddSection({
     })
 
     ST:AddToggle({
-        Name = "White screen",
+        Name = "จอขาว",
         Default = false,
         Flag = "White screen",
         Save = true,
@@ -3858,7 +3858,7 @@ elseif _G.WhiteScreen == false then
     CheckAntiCheatBypass()
     
     ST:AddToggle({
-        Name = "Antiban",
+        Name = "กันแบน | อย่าปิดนะสัสเดะโดนแบนมากุไม่เกี่ยว",
         Default = true,
         Callback = function(Value)
             _G.AntiCheat = Value
@@ -3867,7 +3867,7 @@ elseif _G.WhiteScreen == false then
     })
     
     ST:AddToggle({
-        Name = "auto bật  v4",
+        Name = "ออโต้ สกิวเผ่า | แม่งบัค ถ้าจะเปิดไปเมนู เผ่า V4 เอา",
         Default = false,
         Callback = function(Value)
         AutoAwakeningRace = Value
@@ -3876,7 +3876,7 @@ elseif _G.WhiteScreen == false then
     
 
 local Section = IQ:AddSection({
-    Name = "Saber Menu"
+    Name = "เซเบอร์"
 })
 
 local SaberBoss = IQ:AddLabel("Boss Saber : ")
@@ -3893,7 +3893,7 @@ spawn(function()
 end)
 
 IQ:AddToggle({
-    Name = "Auto Saber",
+    Name = "ออโต้ เซเบอร์",
     Default = false,
     Flag = "Auto Saber",
     Save = true,
@@ -3905,7 +3905,7 @@ IQ:AddToggle({
 
 
 IQ:AddToggle({
-    Name = "Auto Saber[HOP]",
+    Name = "ออโต้ เซเบอร์ | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Saber[HOP]",
     Save = true,
@@ -3915,7 +3915,7 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Pole V.1"
+    Name = "กระบองสายฟ้า V1"
 })
 
 local PoleBoss = IQ:AddLabel("Boss Thunder God : ")
@@ -3932,7 +3932,7 @@ spawn(function()
 end)
 
 TogglePolev1 = IQ:AddToggle({
-    Name = "Auto Pole V.1",
+    Name = "ออโต้ กระบองสายฟ้า V.1",
     Default = false,
     Flag = "Auto Pole",
     Save = true,
@@ -3943,7 +3943,7 @@ TogglePolev1 = IQ:AddToggle({
 })
 
 TogglePolev1Hop = IQ:AddToggle({
-    Name = "Auto Pole V.1[HOP]",
+    Name = "ออโต้ กระบองสายฟ้า V1 | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Pole[HOP]",
     Save = true,
@@ -3953,11 +3953,11 @@ TogglePolev1Hop = IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Second Sea"
+    Name = "โลก 2"
 })
 
 IQ:AddToggle({
-    Name = "Auto Second Sea",
+    Name = "ออโต้ โลก 2",
     Default = false,
     Flag = "Auto Second",
     Save = true,
@@ -3968,10 +3968,10 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Vampire"
+    Name = "แวมไพร์"
 })
 IQ:AddToggle({
-    Name = "Auto Vampire",
+    Name = "ออโต้ ฟาร์มแวมไพร์",
     Default = false,
     Flag = "Auto Vampire",
     Save = true,
@@ -3983,11 +3983,11 @@ IQ:AddToggle({
 
 
 local Section = IQ:AddSection({
-    Name = "SuperHuman"
+    Name = "ซุปเปอร์ฮิวแมน V1"
 })
 
 IQ:AddToggle({
-    Name = "Auto SuperHuman",
+    Name = "ออโต้ ซุปเปอร์ฮิวแมน V1",
     Default = false,
     Flag = "Auto SuperHuman",
     Save = true,
@@ -4003,7 +4003,7 @@ local Section = IQ:AddSection({
 
 
 BartiloToggle = IQ:AddToggle({
-    Name = "Auto Bartilo Quest",
+    Name = "ออโต้ เควสต์โลก 3",
     Default = false,
     Flag = "Auto Bartilo",
     Save = true,
@@ -4015,12 +4015,12 @@ BartiloToggle = IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Next Sea Third"
+    Name = "เปลี่ยนโลก"
 })
 
 
 IQ:AddToggle({
-    Name = "Auto Third Sea",
+    Name = "ออโต้ โลก 3",
     Default = false,
     Flag = "Auto Third",
     Save = true,
@@ -4031,7 +4031,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Auto Buy Legend Sword",
+    Name = "ออโต้ ซื้อดาบ | ซูซุย | ชิซุย | คาบูฉะ",
     Default = false,
     Flag = "Auto Legend",
     Save = true,
@@ -4041,11 +4041,11 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Buddy Sword"
+    Name = "ดาบบิ๊กมำ"
 })
 
 IQ:AddToggle({
-    Name = "Auto Buddy Sword",
+    Name = "ออโต้ ดาบบิ๊กมำ",
     Default = false,
     Flag = "Auto Buddy",
     Save = true,
@@ -4056,7 +4056,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Auto Buddy Sword[HOP]",
+    Name = "ออโต้ ดาบบิ๊กมำ | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Buddy[HOP]",
     Save = true,
@@ -4066,11 +4066,11 @@ IQ:AddToggle({
 })
 
     local Section = IQ:AddSection({
-        Name = "Soul Guita"
+        Name = "กีต้าบรู๊ค"
     })
 
     IQ:AddToggle({
-        Name = "Auto Soul Guita",
+        Name = "ออโต้ กีต้าบรู๊ค",
         Default = false,
         Flag = "Auto Soul",
         Save = true,
@@ -4081,7 +4081,7 @@ IQ:AddToggle({
     })
 
 IQ:AddToggle({
-    Name = "Auto Soul Guita[HOP]",
+    Name = "ออโต้ กีต้าบรู๊ค | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Soul[HOP]",
     Save = true,
@@ -4091,7 +4091,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Auto Auto Observation V2",
+    Name = "ออโต้ ฮาคิสังเกต V2",
     Default = false,
     Flag = "Auto ObservationV2",
     Save = true,
@@ -4102,11 +4102,11 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Auto Dual Curset Katana[Not Work]"
+    Name = "ดาบคู่ | มันไม่ทำงานให้วะไม่แก้ต่อละ"
 })
 
 IQ:AddToggle({
-    Name = "Auto Dual Curset Katana",
+    Name = "ออโต้ ดาบคู่",
     Default = false,
     Flag = "Auto DualCursetKatana",
     Save = true,
@@ -4117,11 +4117,11 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Tushita"
+    Name = "ทูชิตะ"
 })
 
 IQ:AddToggle({
-    Name = "Auto Tushita",
+    Name = "ออโต้ ทูชิตะ",
     Default = false,
     Flag = "Auto Tushita",
     Save = true,
@@ -4133,7 +4133,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Auto Tushita[HOP]",
+    Name = "ออโต้ ทูชิตะ | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Tushita[HOP]",
     Save = true,
@@ -4143,11 +4143,11 @@ IQ:AddToggle({
 })
 
 local Section = IQ:AddSection({
-    Name = "Cavander"
+    Name = "คาเวนเดอร์"
 })
 
 IQ:AddToggle({
-    Name = "Auto Cavander",
+    Name = "ออโต้ คาเวนเดอร์",
     Default = false,
     Flag = "Auto Cavander",
     Save = true,
@@ -4158,7 +4158,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Auto Cavander[HOP]",
+    Name = "ออโต้ คาเวนเดอร์ | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Cavander[HOP]",
     Save = true,
@@ -4168,11 +4168,11 @@ IQ:AddToggle({
 })
 
         local Section = IQ:AddSection({
-            Name = "Twin Hook"
+            Name = "คบเพลิง"
         })
 
         IQ:AddToggle({
-            Name = "Auto Twin Hook",
+            Name = "ออโต้ คบเพลิง",
             Default = false,
             Flag = "Auto Twin",
             Save = true,
@@ -4183,7 +4183,7 @@ IQ:AddToggle({
         })
         
         IQ:AddToggle({
-            Name = "Auto Twin Hook | HOP",
+            Name = "ออโต้ คบเพลิง | เปลี่ยนเซิฟ",
             Default = false,
             Flag = "Auto Twin | HOP",
             Save = true,
@@ -4193,13 +4193,13 @@ IQ:AddToggle({
         })
         
         local Section = IQ:AddSection({
-            Name = "ArenaTrainer"
+            Name = "อรีน่าเทียร์"
         })
 
         IQ:AddLabel("For those who don't understand, this is automatic dummy beating")
 
         IQ:AddToggle({
-            Name = "Automatically hit the dummy",
+            Name = "ออโต้ ดัมมี่",
             Default = false,
             Flag = "Auto dummy",
             Save = true,
@@ -4210,7 +4210,7 @@ IQ:AddToggle({
         })
 
         IQ:AddToggle({
-            Name = "Auto matically hit the dummy | HOP",
+            Name = "ออโต้ ดัมมี่ | เปลี่ยนเซิฟ",
             Default = false,
             Flag = "Auto dummy | HOP",
             Save = true,
@@ -4220,11 +4220,11 @@ IQ:AddToggle({
         })
 
         local Section = IQ:AddSection({
-            Name = "Seperator Hallow Scythe"
+            Name = "เคียว"
         })
 
         IQ:AddToggle({
-            Name = "Auto Hallow Scythe",
+            Name = "ออโต้ เคียว | โลก 3",
             Default = false,
             Flag = "Auto Hallow",
             Save = true,
@@ -4235,7 +4235,7 @@ IQ:AddToggle({
         })
 
 ToggleHallow = IQ:AddToggle({
-            Name = "Auto Hallow Scythe | HOP",
+            Name = "ออโต้ เคียว | โลก 3 | เปลี่ยนเซิฟ",
             Default = false,
             Flag = "Auto Hallow | HOP",
             Save = true,
@@ -4245,11 +4245,11 @@ ToggleHallow = IQ:AddToggle({
         })
 
         local Section = IQ:AddSection({
-            Name = "Dark Dragger"
+            Name = "โยรุจิ๋ว"
         })
 
         IQ:AddToggle({
-            Name = "Auto Dark Dragger",
+            Name = "ออโต้ โยรุจิ๋ว ",
             Default = false,
             Flag = "Auto Dark",
             Save = true,
@@ -4260,7 +4260,7 @@ ToggleHallow = IQ:AddToggle({
         })
 
         IQ:AddToggle({
-            Name = "Auto Dark Dragger | HOP",
+            Name = "ออโต้ โยรุจิ๋ว | เปลี่ยนเซิฟ",
             Default = false,
             Flag = "Auto Dark | HOP",
             Save = true,
@@ -4293,11 +4293,11 @@ ToggleHallow = IQ:AddToggle({
     end
 
     local Section = IQ:AddSection({
-        Name = "SeaBeast"
+        Name = "สัตว์ทะเล"
     })
 
     IQ:AddToggle({
-        Name = "Auto Seabeast",
+        Name = "ออโต้ สัตว์ทะเล",
         Default = false,
         Flag = "Auto Seabeast",
         Save = true,
@@ -4308,7 +4308,7 @@ ToggleHallow = IQ:AddToggle({
     })
 
 IQ:AddToggle({
-    Name = "Auto Seabeast | HOP",
+    Name = "ออโต้ สัตว์ทะล | เปลี่ยนเซิฟ",
     Default = false,
     Flag = "Auto Seabeast | HOP",
     Save = true,
@@ -4330,7 +4330,7 @@ spawn(function()
 end)
 
 local Section = IQ:AddSection({
-        Name = "Mirrage Menu"
+        Name = "เกาะลับ"
     })
 
 IQ:AddToggle({
